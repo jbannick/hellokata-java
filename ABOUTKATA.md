@@ -1,4 +1,4 @@
-#About Kata
+# ABOUTKATA
 
 STUFF FROM MY KATA NOTES
 

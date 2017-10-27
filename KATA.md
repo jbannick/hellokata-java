@@ -66,3 +66,15 @@ See also:
 ...the tradition of using the phrase "Hello, world!" as a test message was influenced by an example program in the seminal book [The C Programming Language](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131101633/ref=sr_1_2?s=books&ie=UTF8&qid=1509096497&sr=1-2&keywords=the+c+programming+language+kernighan+ritchie)."
 
 Wikipedia
+
+## These Kata
+
+how I structured this: basic, intermediate, advanced
+
+intention is for practice, not explanation.
+
+minimal comments just indicate how code is organized
+
+licensing and disclaimers are covered by GitHub license
+
+see my porfolio for fully commented examples of my production code>

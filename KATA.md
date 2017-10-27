@@ -20,7 +20,24 @@ Kata is a term used by some programmers in the Software Craftsmanship movement.
 
 Computer programmers who call themselves "Software Craftsmen" will write 'Kata' - small snippets of code that they write in one sitting, sometimes repeatedly, often daily, in order to build muscle memory and practise their craft.
 
+A code kata is an exercise in programming which helps programmers hone their skills through practice and repetition. 
+
+The term was probably first coined by Dave Thomas, co-author of the book The Pragmatic Programmer...
+
 Wikipedia
+
+Kihon is learning the specific techniques, like punches, kicks, stances, etc. 
+
+In kihon, you practice these techniques in isolation, and you repeat each individually over and over and over again. 
+
+To me, coding kihon would be the equivalent of learning the syntax of a language, learning lamda expressions, or learning generics. 
+
+Kihon is not about solving a problem, but rather learning what tools you have available to solve a problem. 
+
+Only after one learns kihon, can a karate student learn kata and kumite.
+
+Sara Ford
+[Coding is not Kata](https://blogs.msdn.microsoft.com/saraford/2010/01/17/coding-is-not-kata/)
 
 ## Hello Kata
 

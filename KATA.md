@@ -14,6 +14,14 @@ Wikipedia
 
 ## Code Kata
 
+More recently kata has come to be used in English in a more general or figurative sense, referring to any basic form, routine, or pattern of behavior that is practiced to various levels of mastery.
+
+Kata is a term used by some programmers in the Software Craftsmanship movement.
+
+Computer programmers who call themselves "Software Craftsmen" will write 'Kata' - small snippets of code that they write in one sitting, sometimes repeatedly, often daily, in order to build muscle memory and practise their craft.
+
+Wikipedia
+
 ## Hello Kata
 
 

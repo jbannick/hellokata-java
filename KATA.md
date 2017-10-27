@@ -69,6 +69,8 @@ Wikipedia
 
 ## Hello Kata
 
+All code is Java 9
+
 how I structured this: basic, intermediate, advanced
 
 intention is for practice, not explanation.

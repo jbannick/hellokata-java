@@ -49,12 +49,11 @@ Sara Ford
 
 See also:
 
-[CodeKata: How it Started, Dave Thomas] (http://codekata.com/kata/codekata-how-it-started/)
+[CodeKata: How it Started, Dave Thomas](http://codekata.com/kata/codekata-how-it-started/)
 [Coding Dojo, Kata Catalogue](http://codingdojo.org/KataCatalogue/)
 [Software Craftsmanship, Latest Kata](http://katas.softwarecraftsmanship.org/)
 [Performing Code Katas, Micah Martin](https://8thlight.com/blog/micah-martin/2013/05/28/performing-code-katas.html)
-[Code Katas](http://www.codekatas.org/
-)
+[Code Katas](http://www.codekatas.org/)
 ## Hello Kata
 
 

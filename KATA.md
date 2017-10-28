@@ -79,7 +79,7 @@ Code Kata are my way to address these issues and stay very good at what I do.
 
 Designing and coding the Kata is a means for achieving a comprehensive knowledge of a language, and  staying current with it.
 
-Practicing those Kata is how I keep my toolset fully stocked, even when my job requires working with a different language.
+Practicing those Kata is how I keep my toolset for a specific language fully stocked, even when my job requires working with a different language.
 
 The language facility this brings also lets me focus on architecture rather than just syntax.
 

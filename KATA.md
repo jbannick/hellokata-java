@@ -12,7 +12,7 @@ There are perhaps 100 kata across the various forms of karate, each with many mi
 
 Wikipedia
 
-See also: [Cracking the Kata Code, Tony Annesi](https://www.amazon.com/Cracking-Kata-Code-Does-Mean/dp/1544665261/ref=sr_1_1?s=books&ie=UTF8&qid=1509094923&sr=1-1&keywords=cracking+the+kata+code)
+See also: [Cracking the Kata Code, Tony Annesi](http://www.bushido-kai.net/books.html)
 
 ## Code Kata
 

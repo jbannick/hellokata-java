@@ -85,7 +85,6 @@ The language facility this brings also lets me focus on architecture rather than
 
 So the intention here is comprehensiveness and practice, not explanation.
 
-You won't find the kind of comments I put in my production code. See my Portfolio for that.
-Licensing and disclaimers are covered by the GitHub MIT License.
+You won't find the kind of comments I put in my production code. Nor will you find error trapping and event logging. See my Portfolio for those. What you will find is just the simplest code for the task at hand.
 
 You might find these Kata useful for your own professional edge.

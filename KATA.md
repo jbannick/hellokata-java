@@ -69,14 +69,23 @@ Wikipedia
 
 ## Hello Kata
 
-All code is Java 9
+Motivation and Intention:
 
-how I structured this: basic, intermediate, advanced
+My job at MIT Lincoln Laboratory as a software architect and coder requires a deep facility  with multiple languages. 
 
-intention is for practice, not explanation.
+Even novice software engineers know how easy it is to forget pieces of a language when you don't use it for awhile. (Or even that code you wrote two weeks ago.) Software engineers, like medical doctors, tend to know their areas of expertise as it was when they first learned it, but not to follow it as it changes. (Java 7, 8, 9 anyone?) Day-to-day coding is expedience-driven; not lending itself to comprehensive familiarity.
 
-minimal comments just indicate how code is organized
+Code Kata are my way to address these issues and stay very good at what I do.
 
-licensing and disclaimers are covered by GitHub license
+Designing and coding the Kata is a means for achieving a comprehensive knowledge of a language, and  staying current with it.
 
-see my porfolio for fully commented examples of my production code>
+Practicing those Kata is how I keep my toolset fully stocked, even when my job requires working with a different language.
+
+The language facility this brings also lets me focus on architecture rather than just syntax.
+
+So the intention here is comprehensiveness and practice, not explanation.
+
+You won't find the kind of comments I put in my production code. See my Portfolio for that.
+Licensing and disclaimers are covered by the GitHub MIT License.
+
+You might find these Kata useful for your own professional edge.

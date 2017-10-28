@@ -1,31 +1,34 @@
+import java.util.Formatter;
 
-public class HelloAccessContol {
-	public static void main(String...args) {
-		System.out.println("Hello Access Control!");
-		
-		MyClass myClass = new MyClass();
-		
-		myClass.defaultVar = 1;
-		myClass.publicVar = 2;
-//		myClass.privateVar = 3; Causes compiler error
-		myClass.setPrivateVar(3);
-		
-		System.out.printf("myClass.defaultVar = %s\n", myClass.defaultVar);
-		System.out.printf("myClass.publicVar  = %s\n", myClass.publicVar);
-		System.out.printf("myClass.privateVar = %s\n", myClass.getPrivateVar());
-	}
-}
+public class HelloFormatting {
+    public static void main(String... args) {
+        System.out.println("Hello Formatting!");
+        int x = 1;
+        String s1 = String.format("x = %d", x);
+        System.out.println(s1);
+        System.out.format("x = %d\n", x);
+        StringBuffer sb = new StringBuffer();
+        Formatter fmtr = new Formatter(sb);
+        fmtr.format("x = %d", x);
+        System.out.println(sb.toString());
 
-class MyClass {
-	int defaultVar;
-	public int publicVar;
-	private int privateVar;
-	
-	void setPrivateVar(int value) {
-		privateVar = value;
-	}
-	
-	int getPrivateVar() {
-		return privateVar;
-	}
+        // TODO: FORMAT SPECIFIERS: %s, %d, etc
+
+        // TODO: WHICH SPECIFIERS? BIGDECIMAL?
+
+        // TODO: SPECIFYING WIDTH
+
+        // TODO: PADDING, TRUNCATING
+
+        // TODO: SIGNS (AND PAREN)
+
+        // TODO: DATA AND TIME FORMATTING
+
+        // TODO: ARGUMENT INDEX: 1$
+
+        // TODO: CLASS FORMATTER: CONSTRUCTORS, METHODS
+
+        // NOTE: PUT INTERNATIONALIZATION IN SEPARATE KATA
+
+    }
 }

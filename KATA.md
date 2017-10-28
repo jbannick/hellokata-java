@@ -89,6 +89,6 @@ You won't find the kind of comments I put in my production code. Nor will you fi
 
 Other Folks' Kata: No criticism intended, but they don't do what I want.
 Kihon vs. Kata: She's undoubtedly correct; but I like the term Kata more.
-HelloWorld: It's what I use, even for [Quantum](https://github.com/jbannick/hellokata-quil)
+HelloWorld: It's what I use, even for [Quantum](https://github.com/jbannick/hellokata-quil).
 
 You might find these Kata useful for your own professional edge.

@@ -1,34 +1,31 @@
-import java.util.Formatter;
 
-public class HelloFormatting {
+public class HelloAccessContol {
     public static void main(String... args) {
-        System.out.println("Hello Formatting!");
-        int x = 1;
-        String s1 = String.format("x = %d", x);
-        System.out.println(s1);
-        System.out.format("x = %d\n", x);
-        StringBuffer sb = new StringBuffer();
-        Formatter fmtr = new Formatter(sb);
-        fmtr.format("x = %d", x);
-        System.out.println(sb.toString());
+        System.out.println("Hello Access Control!");
 
-        // TODO: FORMAT SPECIFIERS: %s, %d, etc
+        MyClass myClass = new MyClass();
 
-        // TODO: WHICH SPECIFIERS? BIGDECIMAL?
+        myClass.defaultVar = 1;
+        myClass.publicVar = 2;
+        // myClass.privateVar = 3; Causes compiler error
+        myClass.setPrivateVar(3);
 
-        // TODO: SPECIFYING WIDTH
+        System.out.printf("myClass.defaultVar = %s\n", myClass.defaultVar);
+        System.out.printf("myClass.publicVar  = %s\n", myClass.publicVar);
+        System.out.printf("myClass.privateVar = %s\n", myClass.getPrivateVar());
+    }
+}
 
-        // TODO: PADDING, TRUNCATING
+class MyClass {
+    int defaultVar;
+    public int publicVar;
+    private int privateVar;
 
-        // TODO: SIGNS (AND PAREN)
+    void setPrivateVar(int value) {
+        privateVar = value;
+    }
 
-        // TODO: DATA AND TIME FORMATTING
-
-        // TODO: ARGUMENT INDEX: 1$
-
-        // TODO: CLASS FORMATTER: CONSTRUCTORS, METHODS
-
-        // NOTE: PUT INTERNATIONALIZATION IN SEPARATE KATA
-
+    int getPrivateVar() {
+        return privateVar;
     }
 }

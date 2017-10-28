@@ -9,9 +9,9 @@ These kata are my form of practice.
 ## Repo Structure
 This repo contains basic Java kata.
 More advanced kata are in my:
-*hellokata-java-intermediate  TBD
-*hellokata-java-advanced      TBD
+* hellokata-java-intermediate  TBD
+* hellokata-java-advanced      TBD
 
-For more on kata and their application here, see: Kata
+For more on kata and their application here, see: [Kata](https://github.com/jbannick/hellokata-java/blob/master/KATA.md)
 ## Java Version
 All code has been compiled under Java 9.

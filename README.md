@@ -4,7 +4,7 @@ Professionals practice until they can’t get it wrong.”
 
 Harold Craxton, Professor, Royal Academy of Music
 
-These kata are my form of practice.
+These Kata are my form of practice.
 
 ## Repo Structure
 This repo contains basic Java Kata.

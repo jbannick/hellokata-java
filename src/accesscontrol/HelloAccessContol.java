@@ -13,6 +13,8 @@ public class HelloAccessContol {
         System.out.printf("myClass.defaultVar = %s\n", myClass.defaultVar);
         System.out.printf("myClass.publicVar  = %s\n", myClass.publicVar);
         System.out.printf("myClass.privateVar = %s\n", myClass.getPrivateVar());
+        
+        // TODO: Complete this Kata
     }
 }
 

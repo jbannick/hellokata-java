@@ -13,6 +13,8 @@ public class HelloAnnotations {
 
         ha.unCheckedGenerics();
         ha.unCheckedGenerics2();
+        
+        // TODO: Complete this Kata
     }
 
     public void myMethod() {

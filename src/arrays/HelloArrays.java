@@ -79,5 +79,7 @@ public class HelloArrays {
 		System.out.println(Arrays.deepToString(coords3));
 		System.out.println(Arrays.toString(coords));
 		System.out.println(Arrays.toString(coords3));
+		
+		// TODO: Complete this Kata
 	}
 }

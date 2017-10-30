@@ -1,4 +1,3 @@
-
 public class HelloBinary {
 
     static boolean DEBUG = false;

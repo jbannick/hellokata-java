@@ -1,4 +1,3 @@
-
 public class HelloAssertions {
     public static void main(String... args) {
         System.out.println("Hello Assertions!");

@@ -19,3 +19,18 @@ My professional portfolio is at:
 For more on Kata and their application here, see: [Kata](https://github.com/jbannick/hellokata-java/blob/master/KATA.md)
 ## Java Version
 All code has been compiled under Java 9.
+
+## Code Completeness
+This is a work in progress.
+
+I'm working through a list of over 200 Java topics for the Basic Java Kata repo.
+
+As I hit a topic, I study its latest Oracle documentation, online tutorials, blogs, eBooks, and StackOverflow posts. I write a first Kata, usually the simplest possible for that topic, and push it up to the repo. 
+
+That Kata executes properly. However, quite often there is more I intend to put in that Kata. There may even be warnings in the compile. Those Kata contain TODO comments.
+
+Then I go on to the next topic. 
+
+Periodically, I sweep through my list of topics, complete the set of Kata for that topic, and complete all Kata in that set, including resolving any warnings. Those Kata do not contain TODO comments.
+
+It's more fun that way.

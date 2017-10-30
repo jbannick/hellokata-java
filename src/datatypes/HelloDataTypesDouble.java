@@ -89,6 +89,5 @@ public class HelloDataTypesDouble {
         System.out.printf("int   in1 = (int)   -2147483648;          double db25 = (double) in1 \t%s\n", db25);
         System.out.printf("long  lo1 = (long)  -9223372036854775808L; double db26 = (double) lo1 \t%s\n", db26);
         System.out.printf("double db2 = 9223372036854775808.0d; double db27 = (long) db2; \t\t%s\n", db27);
-
     }
 }

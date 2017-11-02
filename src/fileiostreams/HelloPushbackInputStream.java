@@ -26,6 +26,7 @@ public class HelloPushbackInputStream {
                     System.out.print((char) c);
                 }
             }
+            System.out.println("\nStream is read");
         } catch (IOException e) {
             e.printStackTrace();
         }

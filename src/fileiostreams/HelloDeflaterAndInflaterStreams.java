@@ -33,6 +33,7 @@ public class HelloDeflaterAndInflaterStreams {
             for (int i = 0; i < 100; i++) {
                 System.out.print(dis.read());
             }
+            System.out.println("\nStream is read");
             dis.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();

@@ -23,11 +23,11 @@ All code has been compiled under Java 9.
 ## Code Completeness
 This is a work in progress.
 
-I'm working through a list of over 200 Java topics for the Basic Java Kata repo.
+I'm working through a list of over 200 Java topics for my Basic Java Kata repo.
 
 As I hit a topic, I study its latest Oracle documentation, online tutorials, blogs, eBooks, and StackOverflow posts. I write a first Kata, usually the simplest possible for that topic, and push it up to the repo. 
 
-That Kata executes properly. However, quite often there is more I intend to put in that Kata. There may even be warnings in the compile. Those Kata contain TODO comments.
+That Kata executes properly. However, quite often there is more I intend to put in that Kata. There may even be warnings in the compile. (Don't do this in Production!) Those Kata contain TODO comments.
 
 Then I go on to the next topic. 
 

@@ -8,7 +8,7 @@ The term form is used for the corresponding concept in non-Japanese martial arts
 
 The kata are executed as a specified series of approximately 20 to 70 moves, generally with stepping and turning, while attempting to maintain perfect form. 
 
-There are perhaps 100 kata across the various forms of karate, each with many minor variations. "
+There are perhaps 100 kata across the various forms of karate, each with many minor variations."
 
 Wikipedia
 

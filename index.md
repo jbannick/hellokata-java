@@ -1,11 +1,10 @@
-# hellokata-java
 >“Amateurs practice until they get it right; 
 >
 >Professionals practice until they can’t get it wrong.”
 
 _Harold Craxton, Professor, Royal Academy of Music_
 
-#
+
 
 These Kata are very small "HelloWorld" programs that I use to practice Java.
 

@@ -3,7 +3,7 @@
 >
 >Professionals practice until they can’t get it wrong.”
 
-Harold Craxton, Professor, Royal Academy of Music
+_Harold Craxton, Professor, Royal Academy of Music_
 
 These Kata are very small "HelloWorld" programs that I use to practice Java.
 

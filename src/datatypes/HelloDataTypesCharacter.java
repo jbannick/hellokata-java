@@ -32,21 +32,19 @@ public class HelloDataTypesCharacter {
 
         // 2. Value by Instantiation
 
-        Character ch7 = new Character('a');
         Character ch8 = Character.valueOf('a');
 
-        System.out.printf("Character ch7 = new Character('a'); \t%s\n", ch7);
         System.out.printf("Character ch8 = Character.valueOf('a'); \t%s\n", ch8);
 
         // 3. Value by Explicit Conversion
 
-        char ch9 = ch7.charValue();
+        char ch9 = ch8.charValue();
 
         System.out.printf("char ch9 = ch7.charValue(); \t\t%s\n", ch9);
 
         // 4. Value by Autoboxing
 
-        char ch10 = ch7;
+        char ch10 = ch8;
 
         System.out.printf("char ch10 = ch7; \t\t\t%s\n", ch10);
 

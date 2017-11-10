@@ -20,20 +20,18 @@ public class HelloDataTypesBoolean {
 
         // 2. Value by Instantiation
 
-        Boolean bo5 = new Boolean(true);
         Boolean bo6 = Boolean.valueOf(true);
 
-        System.out.printf("Boolean bo5 = new Boolean(true); \t%s\n", bo5);
         System.out.printf("Boolean bo6 = Boolean.valueOf(true); \t%s\n", bo6);
 
         // 3. Value by Explicit Conversion
-        boolean bo7 = bo5.booleanValue();
+        boolean bo7 = bo6.booleanValue();
 
         System.out.printf("boolean bo7 = bo5.booleanValue(); \t\t%s\n", bo7);
 
         // 4. Value by Autoboxing (Implicit Conversion)
 
-        boolean bo8 = bo5;
+        boolean bo8 = bo6;
         Boolean bo9 = bo3;
 
         System.out.printf("boolean bo8 = bo5; \t\t\t%s\n", bo8);

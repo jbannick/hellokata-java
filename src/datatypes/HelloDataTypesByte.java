@@ -24,11 +24,9 @@ public class HelloDataTypesByte {
         System.out.printf("byte by8  =  0b111_1111; \t %s\n", by8);
 
         // 2. Value by Instantiation
-        Byte by9 = new Byte(by1);
-        Byte by19 = Byte.valueOf(by1);
+        Byte by9 = Byte.valueOf(by1);
 
-        System.out.printf("Byte by9  = new Byte(by1); \t%s\n", by9);
-        System.out.printf("Byte by19 = Byte.valueOf(by1); \t%s\n", by19);
+        System.out.printf("Byte by9 = Byte.valueOf(by1); \t%s\n", by9);
 
         // 3. Value by Explicit Conversion
         byte by10 = by9.byteValue();

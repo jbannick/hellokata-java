@@ -30,11 +30,9 @@ public class HelloDataTypesFloat {
         System.out.printf("float fl8 = Float.intBitsToFloat(0x7f7fffff); \t%s\n", fl8);
 
         // 2. Value by Instantiation
-        Float fl9 = new Float(fl1);
-        Float fl19 = Float.valueOf(fl1);
+        Float fl9 = Float.valueOf(fl1);
 
-        System.out.printf("float fl9  = new Float(fl1); \t\t%s\n", fl9);
-        System.out.printf("float fl19 = Float.valueOf(fl1); \t%s\n", fl19);
+        System.out.printf("float fl19 = Float.valueOf(fl1); \t%s\n", fl9);
 
         // 3. Value by Explicit Conversion
         float fl10 = fl9.floatValue();

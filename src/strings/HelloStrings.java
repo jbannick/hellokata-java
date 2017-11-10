@@ -67,7 +67,7 @@ public class HelloStrings {
         String str20 = fl01.toString();
         Double db01 = Double.MAX_VALUE;
         String str21 = db01.toString();
-        String str22 = new Character('a').toString();
+        String str22 = Character.valueOf('a').toString();
         String str23 = LocalDateTime.now().toString();
 
         System.out.printf("bo01 = true; String str16 = bo01.toString(); = <%s>\n", str16);
@@ -76,7 +76,7 @@ public class HelloStrings {
         System.out.printf("Long      lo01 = Long.MAX_VALUE; String str19 = lo01.toString(); = <%s>\n", str19);
         System.out.printf("Float     fl01 = Float.MAX_VALUE; String str20 = fl01.toString(); = <%s>\n", str20);
         System.out.printf("Double    db01 = Double.MAX_VALUE; String str21 = db01.toString(); = <%s>\n", str21);
-        System.out.printf("String str22 = new Character('a').toString(); = <%s>\n", str22);
+        System.out.printf("String str22 = Character.valueOf('a').toString(); = <%s>\n", str22);
         System.out.printf("String str23 = LocalDateTime.now().toString(); = <%s>\n", str23);
 
         // 5. Getting Characters

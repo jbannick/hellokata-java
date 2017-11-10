@@ -1,5 +1,6 @@
 import java.math.BigDecimal;
 import java.math.MathContext;
+import java.math.RoundingMode;
 
 public class HelloDataTypesBigDecimal {
     public static void main(String... args) {
@@ -22,7 +23,7 @@ public class HelloDataTypesBigDecimal {
         BigDecimal bd22 = new BigDecimal(3.14d);
         System.out.printf("bd22 = new BigDecimal(3.14d); = %s\n", bd22);
 
-        BigDecimal bd23 = new BigDecimal(new Double(3.14d));
+        BigDecimal bd23 = new BigDecimal(Double.valueOf(3.14d));
         System.out.printf("bd23 = new BigDecimal(new Double(3.14d)); = %s\n", bd23);
 
         BigDecimal bd24 = new BigDecimal(3.14d, MathContext.DECIMAL64);
@@ -75,15 +76,15 @@ public class HelloDataTypesBigDecimal {
 
         BigDecimal a = new BigDecimal("2.5"); // digit left of 5 is even, so round down
         BigDecimal b = new BigDecimal("1.5"); // digit left of 5 is odd, so round up
-        BigDecimal aa = a.setScale(0, BigDecimal.ROUND_HALF_EVEN); // => 2
-        BigDecimal bb = b.setScale(0, BigDecimal.ROUND_HALF_EVEN); // => 2
+        BigDecimal aa = a.setScale(0, RoundingMode.HALF_EVEN); // => 2
+        BigDecimal bb = b.setScale(0, RoundingMode.HALF_EVEN); // => 2
         System.out.printf("a = %s, b = %s, aa = %s, bb = %s\n", a, b, aa, bb);
 
         double cost = 10.00d;
         double taxRate = 0.0825d;
         double taxAmount = cost * taxRate;
         BigDecimal tax = new BigDecimal(taxAmount);
-        BigDecimal taxRoundedUp = tax.setScale(2, BigDecimal.ROUND_UP);
+        BigDecimal taxRoundedUp = tax.setScale(2, RoundingMode.UP);
         ;
         System.out.printf("cost = %s, taxRate = %s, taxAmount = %s, tax = %s, taxRoundedUp = %s\n", cost, taxRate,
                 taxAmount, tax, taxRoundedUp);

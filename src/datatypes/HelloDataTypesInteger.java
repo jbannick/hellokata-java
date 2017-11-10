@@ -24,11 +24,9 @@ public class HelloDataTypesInteger {
         System.out.printf("int in8  =  0b111_1111_1111_1111; \t %s\n", in8);
 
         // 2. Value by Instantiation
-        Integer in9 = new Integer(in1);
-        Integer in19 = Integer.valueOf(in1);
+        Integer in9 = Integer.valueOf(in1);
 
-        System.out.printf("Integer in9  = new Integer(in1); \t%s\n", in9);
-        System.out.printf("Integer in19 = Integer.valueOf(in1); \t%s\n", in19);
+        System.out.printf("Integer in19 = Integer.valueOf(in1); \t%s\n", in9);
 
         // 3. Value by Explicit Conversion
         int in10 = in9.intValue();

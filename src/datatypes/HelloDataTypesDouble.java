@@ -30,11 +30,9 @@ public class HelloDataTypesDouble {
         System.out.printf("double db8 = Double.longBitsToDouble(0x7fefffffffffffffL); \t%s\n", db8);
 
         // 2. Value by Instantiation
-        Double db9 = new Double(db1);
-        Double db19 = Double.valueOf(db1);
+        Double db9 = Double.valueOf(db1);
 
-        System.out.printf("double db9  = new Double(db1); \t\t%s\n", db9);
-        System.out.printf("double db19 = Double.valueOf(db1); \t%s\n", db19);
+        System.out.printf("double db19 = Double.valueOf(db1); \t%s\n", db9);
 
         // 3. Value by Explicit Conversion
         double db10 = db9.doubleValue();

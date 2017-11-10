@@ -34,11 +34,9 @@ public class HelloDataTypesLong {
                 lo8);
 
         // 2. Value by Instantiation
-        Long lo9 = new Long(lo1);
-        Long lo19 = Long.valueOf(lo1);
+        Long lo9 = Long.valueOf(lo1);
 
-        System.out.printf("Long lo9  = new Long(lo1); \t\t%s\n", lo9);
-        System.out.printf("Long lo19 = Long.valueOf(lo1); \t\t%s\n", lo19);
+         System.out.printf("Long lo19 = Long.valueOf(lo1); \t\t%s\n", lo9);
 
         // 3. Value by Explicit Conversion
         long lo10 = lo9.longValue();

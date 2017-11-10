@@ -24,11 +24,9 @@ public class HelloDataTypesShort {
         System.out.printf("short sh8  =  0b111_1111_1111_1111; \t %s\n", sh8);
 
         // 2. Value sh Instantiation
-        Short sh9 = new Short(sh1);
-        Short sh19 = Short.valueOf(sh1);
+        Short sh9 = Short.valueOf(sh1);
 
-        System.out.printf("Short sh9  = new Short(sh1); \t\t%s\n", sh9);
-        System.out.printf("Short sh19 = Short.valueOf(sh1); \t%s\n", sh19);
+        System.out.printf("Short sh9 = Short.valueOf(sh1); \t%s\n", sh9);
 
         // 3. Value by Explicit Conversion
         short sh10 = sh9.shortValue();

@@ -82,7 +82,7 @@ public class HelloControlFlow {
             System.out.println("s is neither ham nor eggs");
         }
 
-        ii = new Integer(1);
+        ii = Integer.valueOf(1);
         switch (ii) {
         case 1:
             System.out.println("ii is 1");

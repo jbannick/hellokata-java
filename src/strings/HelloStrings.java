@@ -79,21 +79,34 @@ public class HelloStrings {
         System.out.printf("String str22 = Character.valueOf('a').toString(); = <%s>\n", str22);
         System.out.printf("String str23 = LocalDateTime.now().toString(); = <%s>\n", str23);
 
-        // 5. Getting Characters
+        // 5. Value by Reference
+        
+        String str24 = str01.intern();
+        
+        System.out.printf("str01.intern(); = <%s>\n", str24);
+
+        // 6. Getting Characters
 
         char[] chars = new char[5];
         "Hello World".getChars(0, 5, chars, 0);
+        
         System.out.printf("char[] chars = new char[5]; \"Hello World\".getChars(0, 5, chars, 0); = %s\n",
                 Arrays.toString(chars));
 
-        // 6. Getting Bytes
+        // 7. Getting Bytes
 
         byte[] bytes = "Hello World".getBytes();
+        
         System.out.printf("\"Hello World\".getBytes(); = %s\n", Arrays.toString(bytes));
 
-        // 7. Getting Length
+        // 8. Getting Length
 
         int length = "Hello World".length();
+        boolean bo02 = str01.isEmpty();
+        boolean bo03 = str02.isEmpty();
+        
         System.out.printf("\"Hello World\".length(); = %s\n", length);
+        System.out.printf("\"Hello World\".isEmpty(); = %s\n", bo02);
+        System.out.printf("str02 = new String(); str02.isEmpty(); = %s\n", bo03);
     }
 }

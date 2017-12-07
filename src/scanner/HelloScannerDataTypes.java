@@ -17,7 +17,6 @@ public class HelloScannerDataTypes {
             + Short.toString(Short.MAX_VALUE);
         // Scanner 10 2 true 127 1.7976931348623157E308 3.4028235E38 2147483647
         // 9223372036854775807 32767
-        System.out.printf("string = <%s>\n", string);
 
         Scanner sc = new Scanner(string);
         String st01     = sc.next();
@@ -32,6 +31,9 @@ public class HelloScannerDataTypes {
         short sh01      = sc.nextShort();
         sc.close();
 
+        System.out.println("---");
+        System.out.println(string);
+        System.out.println("---");
         System.out.printf("sc.next();           = <%s>\n", st01);
         System.out.printf("sc.nextBigDecimal(); = %s\n", bd01);
         System.out.printf("sc.nextBigInteger(); = %s\n", bi01);

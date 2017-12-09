@@ -4,6 +4,7 @@ import java.math.RoundingMode;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.StringJoiner;
+import java.util.regex.Pattern;
 
 public class HelloScannerHas {
 
@@ -24,6 +25,7 @@ public class HelloScannerHas {
         sj.add(Integer.toString(Integer.MAX_VALUE));
         sj.add(Long.toString(Long.MAX_VALUE));
         sj.add(Short.toString(Short.MAX_VALUE));
+        sj.add("Ozymandias");
 
         System.out.println("---");
         System.out.println(sj.toString());
@@ -80,6 +82,11 @@ public class HelloScannerHas {
         whatsNext();
         short sh01 = m_sc.nextShort();
         System.out.printf("m_sc.nextShort(); = %d\n", sh01);
+
+        System.out.println("---");
+        whatsNext();
+        String st02 = m_sc.next(Pattern.compile("Ozy.*"));
+        System.out.printf("m_sc.next(Pattern.compile(\"Ozy.*\")); = <%s>\n", st02);
     }
 
     static void whatsNext() {

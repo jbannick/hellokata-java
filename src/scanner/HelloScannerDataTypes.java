@@ -1,23 +1,29 @@
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.math.RoundingMode;
+import java.util.Random;
 import java.util.Scanner;
+import java.util.StringJoiner;
 
 public class HelloScannerDataTypes {
     public static void main(String... args) {
         System.out.println("Hello Scanner Data Types!");
 
-        String string = "Scanner " + BigDecimal.TEN.toPlainString() + " " 
-            + BigInteger.TWO.toString() + " "
-            + Boolean.TRUE.toString() + " " 
-            + Byte.toString(Byte.MAX_VALUE) + " "
-            + Double.toString(Double.MAX_VALUE) + " " 
-            + Float.toString(Float.MAX_VALUE) + " "
-            + Integer.toString(Integer.MAX_VALUE) + " " 
-            + Long.toString(Long.MAX_VALUE) + " "
-            + Short.toString(Short.MAX_VALUE);
-        // Scanner 10 2 true 127 1.7976931348623157E308 3.4028235E38 2147483647
-        // 9223372036854775807 32767
+        StringJoiner sj = new StringJoiner(" ");
+        sj.add("Scanner");
 
+        sj.add(new BigDecimal(10.0d * 0.0825d).setScale(2, RoundingMode.UP).toPlainString());
+        sj.add(new BigInteger(64, new Random()).toString());
+        sj.add(Boolean.TRUE.toString());
+        sj.add(Byte.toString(Byte.MAX_VALUE));
+        sj.add(Double.toString(Double.MAX_VALUE));
+        sj.add(Float.toString(Float.MAX_VALUE));
+        sj.add(Integer.toString(Integer.MAX_VALUE));
+        sj.add(Long.toString(Long.MAX_VALUE));
+        sj.add(Short.toString(Short.MAX_VALUE));
+
+        String string = sj.toString();
+        
         Scanner sc = new Scanner(string);
         String st01     = sc.next();
         BigDecimal bd01 = sc.nextBigDecimal();

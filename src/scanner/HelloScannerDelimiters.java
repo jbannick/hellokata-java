@@ -17,6 +17,7 @@ public class HelloScannerDelimiters {
         String st01 = sc01.next();
         String st02 = sc01.next();
         String st03 = sc01.next();
+        sc01.close();
 
         System.out.println("---");
         System.out.println(string01);
@@ -31,6 +32,7 @@ public class HelloScannerDelimiters {
         int in11 = sc02.nextInt();
         int in12 = sc02.nextInt();
         int in13 = sc02.nextInt();
+        sc02.close();
 
         System.out.println("---");
         System.out.println(string02);
@@ -46,6 +48,8 @@ public class HelloScannerDelimiters {
         String st22 = sc03.next();
         String st23 = sc03.next();
         String st24 = sc03.next();
+        sc03.close();
+        
         System.out.println("---");
         System.out.println(string03);
         System.out.printf("sc03.next(); = <%s>\n", st21);
@@ -64,6 +68,7 @@ public class HelloScannerDelimiters {
         sc04.useDelimiter("\\s|\\.");
         int in31 = sc04.nextInt();
         int in32 = sc04.nextInt();
+        
         System.out.println("---");
         System.out.printf("sc04.nextInt(); = %d\n", in31);
         System.out.printf("sc04.nextInt(); = %d\n", in32);
@@ -78,6 +83,8 @@ public class HelloScannerDelimiters {
         int in34 = sc04.nextInt();
         int in35 = sc04.nextInt();
         int in36 = sc04.nextInt();
+        sc04.close();
+
         System.out.println("---");
         System.out.printf("sc04.nextInt(); = %d\n", in33);
         System.out.printf("sc04.nextInt(); = %d\n", in34);

@@ -87,6 +87,8 @@ public class HelloScannerHas {
         whatsNext();
         String st02 = m_sc.next(Pattern.compile("Ozy.*"));
         System.out.printf("m_sc.next(Pattern.compile(\"Ozy.*\")); = <%s>\n", st02);
+        
+        m_sc.close();
     }
 
     static void whatsNext() {

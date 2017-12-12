@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class HelloScannerDelimiters {
 
-    @SuppressWarnings("resource")
     public static void main(String... args) {
         System.out.println("Hello Scanner Delimiters!");
 
@@ -21,6 +20,7 @@ public class HelloScannerDelimiters {
 
         System.out.println("---");
         System.out.println(string01);
+        System.out.printf("delimiter = <%s>\n", sc01.delimiter());
         System.out.printf("sc01.next() = <%s>\n", st01);
         System.out.printf("sc01.next() = <%s>\n", st02);
         System.out.printf("sc01.next() = <%s>\n", st03);
@@ -36,6 +36,7 @@ public class HelloScannerDelimiters {
 
         System.out.println("---");
         System.out.println(string02);
+        System.out.printf("delimiter = <%s>\n", sc02.delimiter());
         System.out.printf("sc02.nextInt() = %d\n", in11);
         System.out.printf("sc02.nextInt() = %d\n", in12);
         System.out.printf("sc02.nextInt() = %d\n", in13);
@@ -52,6 +53,7 @@ public class HelloScannerDelimiters {
         
         System.out.println("---");
         System.out.println(string03);
+        System.out.printf("delimiter = <%s>\n", sc03.delimiter());
         System.out.printf("sc03.next(); = <%s>\n", st21);
         System.out.printf("sc03.next(); = <%s>\n", st22);
         System.out.printf("sc03.next(); = <%s>\n", st23);
@@ -61,8 +63,10 @@ public class HelloScannerDelimiters {
 
         Scanner sc04 = new Scanner(string04);
         float fl31 = sc04.nextFloat();
+        
         System.out.println("---");
         System.out.println(string04);
+        System.out.printf("delimiter = <%s>\n", sc04.delimiter());
         System.out.printf("sc04.nextFloat(); = %1.2f\n", fl31);
 
         sc04.useDelimiter("\\s|\\.");
@@ -70,12 +74,14 @@ public class HelloScannerDelimiters {
         int in32 = sc04.nextInt();
         
         System.out.println("---");
+        System.out.printf("delimiter = <%s>\n", sc04.delimiter());
         System.out.printf("sc04.nextInt(); = %d\n", in31);
         System.out.printf("sc04.nextInt(); = %d\n", in32);
 
         sc04.reset();
         String st31 = sc04.next();
         System.out.println("---");
+        System.out.printf("delimiter = <%s>\n", sc04.delimiter());
         System.out.printf("sc04.next(); = <%s>\n", st31);
 
         sc04.useDelimiter("\\s|\\.");
@@ -86,6 +92,7 @@ public class HelloScannerDelimiters {
         sc04.close();
 
         System.out.println("---");
+        System.out.printf("delimiter = <%s>\n", sc04.delimiter());
         System.out.printf("sc04.nextInt(); = %d\n", in33);
         System.out.printf("sc04.nextInt(); = %d\n", in34);
         System.out.printf("sc04.nextInt(); = %d\n", in35);

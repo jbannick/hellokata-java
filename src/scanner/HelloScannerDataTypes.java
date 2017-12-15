@@ -4,6 +4,7 @@ import java.math.RoundingMode;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.StringJoiner;
+import java.util.regex.Pattern;
 
 public class HelloScannerDataTypes {
     public static void main(String... args) {
@@ -21,6 +22,7 @@ public class HelloScannerDataTypes {
         sj.add(Integer.toString(Integer.MAX_VALUE));
         sj.add(Long.toString(Long.MAX_VALUE));
         sj.add(Short.toString(Short.MAX_VALUE));
+        sj.add("Ozymandias");
 
         String string = sj.toString();
         
@@ -35,6 +37,7 @@ public class HelloScannerDataTypes {
         int in01        = sc.nextInt();
         long lo01       = sc.nextLong();
         short sh01      = sc.nextShort();
+        String st02     = sc.next(Pattern.compile("Ozy.*"));
         sc.close();
 
         System.out.println("---");
@@ -50,5 +53,6 @@ public class HelloScannerDataTypes {
         System.out.printf("sc.nextInt();        = %s\n", in01);
         System.out.printf("sc.nextLong();       = %s\n", lo01);
         System.out.printf("sc.nextShort();      = %s\n", sh01);
+        System.out.printf("sc.next(Pattern.compile(\"Ozy.*\")); = <%s>\n", st02);
     }
 }

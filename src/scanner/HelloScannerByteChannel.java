@@ -11,9 +11,9 @@ import java.util.Scanner;
 import java.util.StringJoiner;
 import java.util.regex.Pattern;
 
-public class HelloScannerInputByteChannel {
+public class HelloScannerByteChannel {
 
-    private static String FILENAME = "hello_scanner_input_stream.txt";
+    private static String FILENAME = "hello_scanner_byte_channel.txt";
 
     public static void main(String... args) {
         System.out.println("Hello Scanner Byte Channel!");
@@ -53,7 +53,6 @@ public class HelloScannerInputByteChannel {
             long lo01 = sc.nextLong();
             short sh01 = sc.nextShort();
             String st02 = sc.next(Pattern.compile("Ozy.*"));
-            sc.close();
 
             System.out.println("---");
             System.out.println(string);

@@ -1,4 +1,4 @@
-import java.io.FileInputStream;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -11,16 +11,16 @@ import java.util.Scanner;
 import java.util.StringJoiner;
 import java.util.regex.Pattern;
 
-public class HelloScannerInputStream {
+public class HelloScannerReadFile {
 
-    private static String FILENAME = "hello_scanner_input_stream.txt";
+    private static String FILENAME = "hello_scanner_read_file.txt";
 
     public static void main(String... args) {
-        System.out.println("Hello Scanner Input Stream!");
+        System.out.println("Hello Scanner Read File!");
 
         StringJoiner sj = new StringJoiner(" ");
         sj.add("Scanner");
-
+        
         sj.add(new BigDecimal(10.0d * 0.0825d).setScale(2, RoundingMode.UP).toPlainString());
         sj.add(new BigInteger(64, new Random()).toString());
         sj.add(Boolean.TRUE.toString());
@@ -41,8 +41,7 @@ public class HelloScannerInputStream {
             System.exit(-1);
         }
 
-        try {
-            Scanner sc = new Scanner(new FileInputStream(FILENAME));
+        try (Scanner sc = new Scanner(new File(FILENAME))) {
             String st01 = sc.next();
             BigDecimal bd01 = sc.nextBigDecimal();
             BigInteger bi01 = sc.nextBigInteger();
@@ -54,7 +53,6 @@ public class HelloScannerInputStream {
             long lo01 = sc.nextLong();
             short sh01 = sc.nextShort();
             String st02 = sc.next(Pattern.compile("Ozy.*"));
-            sc.close();
 
             System.out.println("---");
             System.out.println(string);

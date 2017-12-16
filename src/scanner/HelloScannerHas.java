@@ -8,8 +8,7 @@ import java.util.regex.Pattern;
 
 public class HelloScannerHas {
 
-    static Scanner m_sc;
-    static Pattern m_p = Pattern.compile("Ozy.*");
+    static Pattern ozyPattern = Pattern.compile("Ozy.*");
 
     public static void main(String... args) {
         System.out.println("Hello Scanner Has!");
@@ -28,105 +27,106 @@ public class HelloScannerHas {
         sj.add(Short.toString(Short.MAX_VALUE));
         sj.add("Ozymandias");
 
+        Scanner sc = new Scanner(sj.toString());
+
         System.out.println("---");
         System.out.println(sj.toString());
 
         // ---
 
         System.out.println("---");
-        m_sc = new Scanner(sj.toString());
-        whatsNext();
-        String st01 = m_sc.next();
-        System.out.printf("m_sc.next(); = <%s>\n", st01);
+        whatsNext(sc);
+        String st01 = sc.next();
+        System.out.printf("sc.next(); = <%s>\n", st01);
 
         System.out.println("---");
-        whatsNext();
-        BigDecimal bd01 = m_sc.nextBigDecimal();
-        System.out.printf("m_sc.nextBigDecimal(); = %s\n", bd01);
+        whatsNext(sc);
+        BigDecimal bd01 = sc.nextBigDecimal();
+        System.out.printf("sc.nextBigDecimal(); = %s\n", bd01);
 
         System.out.println("---");
-        whatsNext();
-        BigInteger bi01 = m_sc.nextBigInteger();
-        System.out.printf("m_sc.nextBigInteger(); = %s\n", bi01);
+        whatsNext(sc);
+        BigInteger bi01 = sc.nextBigInteger();
+        System.out.printf("sc.nextBigInteger(); = %s\n", bi01);
 
         System.out.println("---");
-        whatsNext();
-        boolean bo01 = m_sc.nextBoolean();
-        System.out.printf("m_sc.nextBoolean(); = %b\n", bo01);
+        whatsNext(sc);
+        boolean bo01 = sc.nextBoolean();
+        System.out.printf("sc.nextBoolean(); = %b\n", bo01);
 
         System.out.println("---");
-        whatsNext();
-        byte by01 = m_sc.nextByte();
-        System.out.printf("m_sc.nextByte(); = %d\n", by01);
+        whatsNext(sc);
+        byte by01 = sc.nextByte();
+        System.out.printf("sc.nextByte(); = %d\n", by01);
 
         System.out.println("---");
-        whatsNext();
-        double db01 = m_sc.nextDouble();
-        System.out.printf("m_sc.nextDouble(); = %e\n", db01);
+        whatsNext(sc);
+        double db01 = sc.nextDouble();
+        System.out.printf("sc.nextDouble(); = %e\n", db01);
 
         System.out.println("---");
-        whatsNext();
-        float fl01 = m_sc.nextFloat();
-        System.out.printf("m_sc.nextFloat(); = %e\n", fl01);
+        whatsNext(sc);
+        float fl01 = sc.nextFloat();
+        System.out.printf("sc.nextFloat(); = %e\n", fl01);
 
         System.out.println("---");
-        whatsNext();
-        int in01 = m_sc.nextInt();
-        System.out.printf("m_sc.nextInt(); = %d\n", in01);
+        whatsNext(sc);
+        int in01 = sc.nextInt();
+        System.out.printf("sc.nextInt(); = %d\n", in01);
 
         System.out.println("---");
-        whatsNext();
-        long lo01 = m_sc.nextLong();
-        System.out.printf("m_sc.nextLong(); = %d\n", lo01);
+        whatsNext(sc);
+        long lo01 = sc.nextLong();
+        System.out.printf("sc.nextLong(); = %d\n", lo01);
 
         System.out.println("---");
-        whatsNext();
-        short sh01 = m_sc.nextShort();
-        System.out.printf("m_sc.nextShort(); = %d\n", sh01);
+        whatsNext(sc);
+        short sh01 = sc.nextShort();
+        System.out.printf("sc.nextShort(); = %d\n", sh01);
 
         System.out.println("---");
-        whatsNext();
-        String st02 = m_sc.next(m_p);
-        System.out.printf("m_sc.next(Pattern.compile(\"Ozy.*\")); = <%s>\n", st02);
+        whatsNext(sc);
+        String st02 = sc.next(ozyPattern);
+        System.out.printf("sc.next(Pattern.compile(\"Ozy.*\")); = <%s>\n", st02);
         
-        m_sc.close();
+        sc.close();
     }
 
-    static void whatsNext() {
+    static void whatsNext(Scanner sc) {
 
         StringJoiner sj = new StringJoiner(", ");
 
-        if (m_sc.hasNextBigDecimal()) {
+        if (sc.hasNextBigDecimal()) {
             sj.add("BigDecimal");
         }
-        if (m_sc.hasNextBigInteger()) {
+        if (sc.hasNextBigInteger()) {
             sj.add("BigInteger");
         }
-        if (m_sc.hasNextBoolean()) {
+        if (sc.hasNextBoolean()) {
             sj.add("Boolean");
         }
-        if (m_sc.hasNextByte()) {
+        if (sc.hasNextByte()) {
             sj.add("Byte");
         }
-        if (m_sc.hasNextDouble()) {
+        if (sc.hasNextDouble()) {
             sj.add("Double");
         }
-        if (m_sc.hasNextFloat()) {
+        if (sc.hasNextFloat()) {
             sj.add("Float");
         }
-        if (m_sc.hasNextInt()) {
+        if (sc.hasNextInt()) {
             sj.add("Integer");
         }
-        if (m_sc.hasNextLong()) {
+        if (sc.hasNextLong()) {
             sj.add("Long");
         }
-        if (m_sc.hasNextShort()) {
+        if (sc.hasNextShort()) {
             sj.add("Short");
         }
-        if (m_sc.hasNext(m_p)) {
-            sj.add(m_p.toString());
+        if (sc.hasNext(ozyPattern)) {
+            sj.add(ozyPattern.toString());
         }
-        if (m_sc.hasNext()) {
+        if (sc.hasNext()) {
             sj.add("String");
         }
         System.out.printf("Next token is one of: %s\n", sj.toString());

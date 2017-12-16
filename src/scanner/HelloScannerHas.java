@@ -26,6 +26,7 @@ public class HelloScannerHas {
         sj.add(Long.toString(Long.MAX_VALUE));
         sj.add(Short.toString(Short.MAX_VALUE));
         sj.add("Ozymandias");
+        sj.add(Float.toString(Float.MAX_VALUE) + "1000");
 
         Scanner sc = new Scanner(sj.toString());
 
@@ -88,7 +89,12 @@ public class HelloScannerHas {
         whatsNext(sc);
         String st02 = sc.next(ozyPattern);
         System.out.printf("sc.next(Pattern.compile(\"Ozy.*\")); = <%s>\n", st02);
-        
+
+        System.out.println("---");
+        whatsNext(sc);
+        float fl02 = sc.nextFloat();
+        System.out.printf("sc.nextFloat(too large); = <%s>\n", fl02);
+
         sc.close();
     }
 

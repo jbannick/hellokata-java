@@ -41,8 +41,7 @@ public class HelloScannerReadFile {
             System.exit(-1);
         }
 
-        try {
-            Scanner sc = new Scanner(new File(FILENAME));
+        try (Scanner sc = new Scanner(new File(FILENAME))) {
             String st01 = sc.next();
             BigDecimal bd01 = sc.nextBigDecimal();
             BigInteger bi01 = sc.nextBigInteger();
@@ -54,7 +53,6 @@ public class HelloScannerReadFile {
             long lo01 = sc.nextLong();
             short sh01 = sc.nextShort();
             String st02 = sc.next(Pattern.compile("Ozy.*"));
-            sc.close();
 
             System.out.println("---");
             System.out.println(string);

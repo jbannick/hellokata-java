@@ -69,7 +69,7 @@ class HelloLambdasBiConsumer {
 		printerSwap.andThen(printerJoin).accept("Hello", "Swap2");
 	}
 
-	static final void printAllPairs(final List<String> strings, final BiConsumer<String, String> printer) {
+	private static final void printAllPairs(final List<String> strings, final BiConsumer<String, String> printer) {
 		String first = null;
 		String previous = null;
 		for (String string : strings) {
@@ -85,7 +85,7 @@ class HelloLambdasBiConsumer {
 		}
 	}
 
-	static final void showMap(final Map<String, String> map, final String string) {
+	private static final void showMap(final Map<String, String> map, final String string) {
 		System.out.println("=== " + string + " ===");
 		map.forEach((key, val) -> System.out.println(key + " " + val));
 	}

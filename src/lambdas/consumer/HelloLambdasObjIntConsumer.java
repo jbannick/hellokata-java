@@ -37,7 +37,7 @@ public class HelloLambdasObjIntConsumer {
 		objCon.accept(map, 2);
 	}
 
-	static final void printAllPairs(final List<Integer> integers, final ObjIntConsumer<Integer> printer) {
+	private static final void printAllPairs(final List<Integer> integers, final ObjIntConsumer<Integer> printer) {
 		Integer first = null;
 		Integer previous = null;
 		for (Integer integer : integers) {
@@ -53,7 +53,7 @@ public class HelloLambdasObjIntConsumer {
 		}
 	}
 
-	static final void adder(final Map<String, Integer> map, final int value) {
+	private static final void adder(final Map<String, Integer> map, final int value) {
 		map.forEach((key, val) -> System.out.println(String.format("%d + %d = %d", val, value, (val + value))));
 	}
 }

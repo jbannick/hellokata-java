@@ -37,7 +37,7 @@ public class HelloLambdasObjLongConsumer {
 		objCon.accept(map, 4_000_000_000L);
 	}
 
-	static final void printAllPairs(final List<Long> longs, final ObjLongConsumer<Long> printer) {
+	private static final void printAllPairs(final List<Long> longs, final ObjLongConsumer<Long> printer) {
 		Long first = null;
 		Long previous = null;
 		for (Long longVal : longs) {
@@ -53,7 +53,7 @@ public class HelloLambdasObjLongConsumer {
 		}
 	}
 
-	static final void adder(final Map<String, Long> map, final long value) {
+	private static final void adder(final Map<String, Long> map, final long value) {
 		map.forEach((key, val) -> System.out.println(String.format("%,d + %,d = %,d", val, value, (val + value))));
 	}
 }

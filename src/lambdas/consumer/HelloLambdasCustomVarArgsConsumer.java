@@ -53,11 +53,11 @@ class HelloLambdasCustomVarArgsConsumer {
 		applyWithStillAndPrinting(vArgsPrinter::accept);
 	}
 
-	static void invokeVarArgsConsumer(VarArgsConsumer varArgsConsumer, Object... args) {
+	private static final void invokeVarArgsConsumer(final VarArgsConsumer varArgsConsumer, final Object... args) {
 		varArgsConsumer.accept(args);
 	}
 
-	static void applyWithStillAndPrinting(VarArgsConsumer varArgsConsumer) {
+	private static final void applyWithStillAndPrinting(final VarArgsConsumer varArgsConsumer) {
 		varArgsConsumer.accept("Still", "Printing");
 	}
 }

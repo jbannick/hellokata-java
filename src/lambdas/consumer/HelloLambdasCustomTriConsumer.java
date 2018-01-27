@@ -70,14 +70,14 @@ class HelloLambdasCustomTriConsumer {
 		triPrinterSwap.andThen(triPrinter).accept("Hello2", "my2", "friends2");
 	}
 
-	static final void printAllTriples(final List<List<String>> triples,
+	private static final void printAllTriples(final List<List<String>> triples,
 			final TriConsumer<String, String, String> triPrinter) {
 		for (List<String> triple : triples) {
 			triPrinter.accept(triple.get(0), triple.get(1), triple.get(2));
 		}
 	}
 
-	static final void showTriple(final List<String> triple, final String who, final String exclamation) {
+	private static final void showTriple(final List<String> triple, final String who, final String exclamation) {
 		System.out.println(
 				String.format("%s: %s %s %s - %s", who, triple.get(0), triple.get(1), triple.get(2), exclamation));
 	}

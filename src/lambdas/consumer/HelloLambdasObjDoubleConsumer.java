@@ -37,7 +37,7 @@ public class HelloLambdasObjDoubleConsumer {
 		objCon.accept(map, 2.0d);
 	}
 
-	static void printAllPairs(final List<Double> doubles, final ObjDoubleConsumer<Double> printer) {
+	private static void printAllPairs(final List<Double> doubles, final ObjDoubleConsumer<Double> printer) {
 		Double first = null;
 		Double previous = null;
 		for (Double dbl : doubles) {
@@ -53,7 +53,7 @@ public class HelloLambdasObjDoubleConsumer {
 		}
 	}
 
-	static void adder(final Map<String, Double> map, final double value) {
+	private static void adder(final Map<String, Double> map, final double value) {
 		map.forEach(
 				(key, val) -> System.out.println(String.format("%3.1f + %3.1f = %3.1f", val, value, (val + value))));
 	}

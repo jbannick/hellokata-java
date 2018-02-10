@@ -1,5 +1,5 @@
 mkdir -p out
 
-javac -d out/hellomodules \
-    src/com/kata/hellomodules/HelloModules.java \
+javac -d out \
+    src/kata/modules/hellomodules/HelloModules.java \
     src/module-info.java

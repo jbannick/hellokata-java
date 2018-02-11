@@ -1,1 +1,0 @@
-hellomodulesimage-image/bin/hellomodulesimage

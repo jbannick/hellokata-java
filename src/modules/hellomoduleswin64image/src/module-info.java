@@ -1,0 +1,2 @@
+module hellomoduleswin64image {
+}

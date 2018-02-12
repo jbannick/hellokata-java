@@ -1,4 +1,4 @@
-To deploy this app:
+To deploy and execute this app:
 1. Copy the hellomodulesmacosimage-image directory tree to your destination location
 2. Copy runhellomodulesmacosimage.sh to the same location
 3. cd to that location

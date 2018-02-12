@@ -1,1 +1,1 @@
-These Kata show how to make and run Java 9 modules.
+These Kata show how to build, deploy, and execute Java 9 modules.

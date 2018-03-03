@@ -1,2 +1,2 @@
-java --module-path out \
---module hellomodulesjar/kata.modules.hmjar.HelloModulesJAR
+java --module-path mods --module hmod
+

@@ -1,2 +1,2 @@
-module hellomodules {
+module hmod {
 }

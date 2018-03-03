@@ -1,2 +1,2 @@
-module hellomodulesjar {
+module hmod {
 }

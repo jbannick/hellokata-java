@@ -1,4 +1,4 @@
-his app contains its own on-board copy of the Java runtime environment.
+This app contains its own on-board copy of the Java runtime environment.
 
 It needs Java 9 on the build computer to build, but does not need Java installed on the destination computer to run.
 

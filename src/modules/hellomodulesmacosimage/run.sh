@@ -1,1 +1,0 @@
-hellomodulesmacosimage-image/bin/hellomodulesmacosimage

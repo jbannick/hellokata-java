@@ -1,1 +1,0 @@
-hellomoduleslinuximage-image/bin/hellomoduleslinuximage

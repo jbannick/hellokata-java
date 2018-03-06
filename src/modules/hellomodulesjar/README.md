@@ -15,8 +15,6 @@ The app should build a directory, mods, that contains hmod.jar
 
 The app should display: Hello Modules!
 
-To run this app at another location on your computer:
-
 To run this app on another computer:
 
 - You must have Java 9 installed on your destination computer

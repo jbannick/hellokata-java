@@ -13,7 +13,7 @@ a. An application directory, mods, that contains hmod.jar
 
 b. An image directory tree, hmod-image, that contains a Java 9 runtime envirionment
 
-6. At the command line, execute: run.sh
+5. At the command line, execute: run.sh
 
 The app should display: Hello Modules!
 

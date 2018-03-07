@@ -6,7 +6,7 @@ This app contains its own on-board copies of the Java 9 runtime environments for
 
 It needs Java 9 on your build computer to build, but does not need Java installed on the destination computer to run.
 
-It may be run only on computers using the same operating system, though not necessarily the same release, as the computer on which you built this app.
+It may be run on MacOS, Windows64 (Windows 10, 8, 7), or Linux computers.
 
 To build and run this app:
 

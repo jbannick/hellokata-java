@@ -20,8 +20,8 @@ To build and run this app:
 - You must have your JAVA9_LINUX_HOME environment variable pointing at your Java 9 JDK for Linux
 
 1. Copy the src directory tree to your destination location
-2. Copy build.sh to that location
-3. Copy run.sh to that location
+2. Copy build.sh or build.bat to that location
+3. Copy run.sh or run.bat to that location
 4. At the command line, execute: build.sh or build.bat, depending on your build computer
 
 The app should build:

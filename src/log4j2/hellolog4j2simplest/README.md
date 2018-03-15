@@ -1,6 +1,9 @@
 This is the simplest Log4J2 app.
+
 It displays your ERROR message to the console.
+
 Because it does not include a Log4J2 configuration file, it also displays a Log4J2 error message,
+
 To build and run this app:
 
 - You must have Java installed

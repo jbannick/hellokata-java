@@ -15,10 +15,10 @@ To build and run this app:
 
 Download Log4J2 from: https://logging.apache.org/log4j/2.x/download.html
 
-Download the Jackson JSON parser from:
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.4
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.4
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.4/
+Download the Jackson JSON parser from:  
+http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.4  
+http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.4  
+http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.4/  
 
 
 1. Copy the src directory tree to your destination location

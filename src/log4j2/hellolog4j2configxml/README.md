@@ -22,7 +22,7 @@ The app should build.
 
 The console should display:
 
-Hello Log4J2 Config!  
+Hello Log4J2 Config XML!  
 04:50:56.781 [main] INFO  HelloLog4J2ConfigXML - This is an info entry  
 04:50:56.785 [main] DEBUG HelloLog4J2ConfigXML - This is a debug entry  
 04:50:56.785 [main] WARN  HelloLog4J2ConfigXML - This is a warn entry  

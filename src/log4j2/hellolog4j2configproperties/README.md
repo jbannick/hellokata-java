@@ -29,3 +29,4 @@ Hello Log4J2 Config Properties!
 04:50:56.785 [main] ERROR HelloLog4J2ConfigXML - This is an error entry  
 
 A file named hellolog4j2.log containing the same entries should be written to your ./logs directory.
+Note that, by default, Log4J2 appends to existing log files.

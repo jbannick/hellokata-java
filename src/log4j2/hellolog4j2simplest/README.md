@@ -29,3 +29,5 @@ ERROR StatusLogger No log4j2 configuration file found. Using default configurati
 Hello Log4J2 Simplest!
 
 05:11:44.103 [main] ERROR HelloLog4J2Simplest - This is an error entry
+
+The app does not display the other log messages because Log4J2's default verbosity is ERROR.

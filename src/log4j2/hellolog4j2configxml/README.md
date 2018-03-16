@@ -28,4 +28,4 @@ Hello Log4J2 Config!
 04:50:56.785 [main] WARN  HelloLog4J2ConfigXML - This is a warn entry  
 04:50:56.785 [main] ERROR HelloLog4J2ConfigXML - This is an error entry  
 
-A file named hellolog4j2.log containing the same entries should be written to the ./logs directory.
+A file named hellolog4j2.log containing the same entries should be written to your ./logs directory.

@@ -1,10 +1,10 @@
 This app formats its Log4J2 output the way I like.
 
-ERROR and WARNING entries have easily identifiable prefixes; INFO and DEBUG have none.  
-The timestamp is just time, including milliseconds.
-The thread name is bracketed.  
-The logger string includes the package, truncated to just the useful part.  
-A dash separates the message.
+- ERROR and WARNING entries have easily identifiable prefixes; INFO and DEBUG have none.  
+- The timestamp is just time, including milliseconds.
+- The thread name is bracketed.  
+- The logger string includes the package, truncated to just the useful part.  
+- A dash separates the message.
 
 Output to the log file replaces the logger string with the file name and line number.
 

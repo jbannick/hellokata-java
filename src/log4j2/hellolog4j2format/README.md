@@ -28,7 +28,6 @@ The app should build.
 
 The console should display:
 
-`
 Hello Log4J2 Format!  
 14:58:22.780 [main] foo.HelloLog4J2Format - This is an info entry  
 14:58:22.785 [main] foo.HelloLog4J2Format - This is a debug entry  
@@ -36,18 +35,15 @@ Hello Log4J2 Format!
 ***14:58:22.787 [main] foo.HelloLog4J2Format - This is an error entry  
 14:58:22.788 [main] foo.Foo - Instantiated  
 14:58:22.789 [main] foo.bar.Bar - Instantiated
-`
 
 A file named hellolog4j2.log containing the same entries should be written to your ./logs directory.
 Note that, by default, Log4J2 appends to existing log files.
 
 The log file should include:
 
-`
 15:11:29.989 [main] HelloLog4J2Format.java:11 - This is an info entry  
 15:11:29.996 [main] HelloLog4J2Format.java:12 - This is a debug entry  
 +++15:11:29.996 [main] HelloLog4J2Format.java:13 - This is a warn entry  
 ***15:11:29.997 [main] HelloLog4J2Format.java:14 - This is an error entry  
 15:11:30.013 [main] Foo.java:10 - Instantiated  
 15:11:30.035 [main] Bar.java:10 - Instantiated
-`

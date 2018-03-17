@@ -5,6 +5,7 @@ Normally this would cause Log4J2 to complain and then display only ERROR message
 However, when we pass in the JVM command line option -Dlog4j.configurationFile=log4j2alt.xml, Log4J2 uses the specified file when initializing.
 
 The app displays your INFO, DEBUG, WARN, and ERROR messages to the console.
+
 To build and run this app:
 - You must have Java installed
 - You must have log4j-core-2.10.0.jar at LOG4J2_HOME

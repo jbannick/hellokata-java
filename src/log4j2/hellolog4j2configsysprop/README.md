@@ -19,7 +19,7 @@ The app should build.
 5. At the command line, execute: run.sh
 The console should display:
 Hello Log4J2 Config System Property!  
-log4j.configurationFile=/Users/johnbannick/IdeaProjects/HelloLog4J2ConfigSysProp/src/log4j2alt.xml  
+log4j.configurationFile=log4j2alt.xml  
 11:17:16.655 [main] INFO  HelloLog4J2ConfigSysProp - This is an info entry  
 11:17:16.670 [main] DEBUG HelloLog4J2ConfigSysProp - This is a debug entry  
 11:17:16.671 [main] WARN  HelloLog4J2ConfigSysProp - This is a warn entry  

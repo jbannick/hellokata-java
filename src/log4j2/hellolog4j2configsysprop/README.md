@@ -24,5 +24,6 @@ log4j.configurationFile=/Users/johnbannick/IdeaProjects/HelloLog4J2ConfigSysProp
 11:17:16.670 [main] DEBUG HelloLog4J2ConfigSysProp - This is a debug entry  
 11:17:16.671 [main] WARN  HelloLog4J2ConfigSysProp - This is a warn entry  
 11:17:16.671 [main] ERROR HelloLog4J2ConfigSysProp - This is an error entry
+
 A file named hellolog4j2.log containing the same entries should be written to your ./logs directory.  
 Note that, by default, Log4J2 appends to existing log files.

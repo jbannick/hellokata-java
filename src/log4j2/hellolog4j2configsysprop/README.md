@@ -17,8 +17,11 @@ Download Log4J2 from: https://logging.apache.org/log4j/2.x/download.html
 3. Copy run.sh to that location
 4. At the command line, cd to your destination location
 5. At the command line, execute: build.sh
+
 The app should build.
+
 5. At the command line, execute: run.sh
+
 The console should display:
 
 Hello Log4J2 Config System Property!  

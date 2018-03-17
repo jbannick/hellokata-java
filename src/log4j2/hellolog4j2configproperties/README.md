@@ -23,10 +23,10 @@ The app should build.
 The console should display:
 
 Hello Log4J2 Config Properties!  
-04:50:56.781 [main] INFO  HelloLog4J2ConfigXML - This is an info entry  
-04:50:56.785 [main] DEBUG HelloLog4J2ConfigXML - This is a debug entry  
-04:50:56.785 [main] WARN  HelloLog4J2ConfigXML - This is a warn entry  
-04:50:56.785 [main] ERROR HelloLog4J2ConfigXML - This is an error entry  
+04:50:56.781 [main] INFO  HelloLog4J2ConfigProperties - This is an info entry  
+04:50:56.785 [main] DEBUG HelloLog4J2ConfigProperties - This is a debug entry  
+04:50:56.785 [main] WARN  HelloLog4J2ConfigProperties - This is a warn entry  
+04:50:56.785 [main] ERROR HelloLog4J2ConfigProperties - This is an error entry  
 
 A file named hellolog4j2.log containing the same entries should be written to your ./logs directory.  
 Note that, by default, Log4J2 appends to existing log files.

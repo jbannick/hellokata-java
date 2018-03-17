@@ -18,6 +18,7 @@ Download Log4J2 from: https://logging.apache.org/log4j/2.x/download.html
 The app should build.
 5. At the command line, execute: run.sh
 The console should display:
+
 Hello Log4J2 Config System Property!  
 log4j.configurationFile=log4j2alt.xml  
 11:17:16.655 [main] INFO  HelloLog4J2ConfigSysProp - This is an info entry  

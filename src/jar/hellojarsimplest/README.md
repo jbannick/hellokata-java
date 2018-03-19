@@ -1,5 +1,7 @@
 This is a simple app contained in a JAR file.
 
+The MANIFEST.MF file contained in the JAR file is generated automatically by the jar command during the build process.
+
 To build and run this app:
 
 - You must have Java installed

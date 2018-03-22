@@ -12,7 +12,7 @@ To build and run this app:
 - You must have slf4j-simple-1.8.0-beta2.jar at SLF4J_HOME
 - you must have apache-log4j-1.2.jar         at LOG4J1_HOME
 
-Download slf4j from: https://www.slf4j.org/download.html
+Download slf4j from: https://www.slf4j.org/download.html  
 Download log4j ONE from http://logging.apache.org/log4j/1.2/download.html
 
 1. Copy the src directory tree to your destination location

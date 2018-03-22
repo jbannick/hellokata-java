@@ -27,9 +27,9 @@ The app should build.
 
 The console should display:
 
-Hello SLF4J Log4J!
-[main] INFO HelloSLF4JLog4J - This is an info message
-[main] WARN HelloSLF4JLog4J - This is a warning message
-[main] ERROR HelloSLF4JLog4J - This is an error message
+Hello SLF4J Log4J!  
+[main] INFO HelloSLF4JLog4J - This is an info message  
+[main] WARN HelloSLF4JLog4J - This is a warning message  
+[main] ERROR HelloSLF4JLog4J - This is an error message  
 
 It should not display your DEBUG message.

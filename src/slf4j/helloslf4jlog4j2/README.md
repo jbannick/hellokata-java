@@ -1,4 +1,4 @@
-This app uses SLF4J and Log4J2's SLF4J binding for logging.
+This app uses SLF4J and Log4J2's SLF4J implementation for logging.
 
 It displays your INFO, DEBUG, WARN, and ERROR messages to the console.
 

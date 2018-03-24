@@ -10,7 +10,7 @@ To build and run this app:
 - you must have log4j-api-2.10.0.jar         at LOG4J2_HOME  
 - You must have log4j-slf4j-impl-2.10.0.jar  at LOG4J2_HOME
 
-NOTE: It's very easy to mistakenly use SLF4J's Log4J JAR binding file(s) rather than Log4J2's SLF4J impl JAR file. This cost me a lot of time. Don't make the same mistake!
+NOTE: It's very easy to mistakenly use SLF4J's Log4J binding JAR(s) rather than Log4J2's SLF4J impl JAR file. This cost me a lot of time. Don't make the same mistake!
 
 Download slf4j from: https://www.slf4j.org/download.html  
 Download Log4J2 from: https://logging.apache.org/log4j/2.x/download.html

@@ -33,5 +33,7 @@ Hello SLF4J Log4J2!
 +++14:29:59.062 [main] HelloSLF4JLog4J2.java:11 - This is a warning message  
 ***14:29:59.063 [main] HelloSLF4JLog4J2.java:12 - This is an error message  
  
+NOTE: The format of the Log4J2 strings is my own selection of their options. YMMV.
+
 A file named helloslf4jlog4j2.log containing the same entries should be written to your ./logs directory.
 Note that, by default, Log4J2 appends to existing log files.

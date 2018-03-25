@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Main-Class: gov.fubar.foo.HelloLog4J2JAR

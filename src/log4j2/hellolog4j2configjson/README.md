@@ -29,7 +29,7 @@ http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.4/
 
 The app should build.
 
-5. At the command line, execute: run.sh
+6. At the command line, execute: run.sh
 
 The console should display:
 

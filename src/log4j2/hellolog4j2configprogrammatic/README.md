@@ -20,7 +20,7 @@ Download Log4J2 from: https://logging.apache.org/log4j/2.x/download.html
 
 The app should build.
 
-5. At the command line, execute: run.sh
+6. At the command line, execute: run.sh
 
 The console should display:
 

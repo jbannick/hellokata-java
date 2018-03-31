@@ -1,8 +1,8 @@
-This app should run on any computer with Java 9 installed, regardless of that computer's operating system.
+This app should run on any computer with Java 9 or later installed, regardless of that computer's operating system.
 
 To build and run this app:
 
-- You must have Java 9 installed
+- You must have Java 9 or later installed
 
 1. Copy the src directory tree to your destination location
 2. Copy build.sh to that location
@@ -17,7 +17,7 @@ The app should display: Hello Modules!
 
 To run this app on another computer:
 
-- You must have Java 9 installed on your destination computer
+- You must have Java 9 or later installed on your destination computer
 - Your destination computer can use any operating system that supports Java, not necessarily the same operating system you built on
  
 1. Create a destination location directory on your destination computer

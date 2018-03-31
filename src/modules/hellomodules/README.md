@@ -1,6 +1,6 @@
 To build and run this app:
 
-- You must have Java 9 installed
+- You must have Java 9 or later installed
 1. Copy the src directory tree to your destination location
 2. Copy build.sh to that location
 3. Copy run.sh to that location

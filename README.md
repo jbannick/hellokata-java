@@ -18,9 +18,7 @@ My professional portfolio is at:
 
 For more on Kata and their application here, see: >>>[KATA](https://github.com/jbannick/hellokata-java/blob/master/KATA.md)
 ## Java Version
-All code has been compiled under Java 9.
-
-Deprecations have been removed or upgraded to non-deprecated Java 9.
+All code has been compiled under Java 9 or 10.
 
 ## Code Completeness
 This is a work in progress.

@@ -1,1 +1,1 @@
-.\hmod-image-java9-win64\bin\hmod.bat
+.\hmod-image-java-win64\bin\hmod.bat

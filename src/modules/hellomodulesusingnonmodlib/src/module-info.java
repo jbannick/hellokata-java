@@ -1,0 +1,3 @@
+module hmod {
+    requires eventbus;
+}

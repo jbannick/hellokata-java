@@ -1,6 +1,6 @@
 This modularized app uses a single non-modularized library.
 
-It uses the eventbus library to publish and subscribe to messages.
+That library is the eventbus library, used to publish and subscribe to messages.
 
 To build and run this app:
 
@@ -22,7 +22,7 @@ The app should build.
 
 The console should display:
 
-Hello Modules Using Non-Modularized Library!    
+Hello Modules Using a Non-Modularized Library!    
 Publisher is instantiated  
 Subscriber is instantiated  
 Subscriber received a rumor: Pizza in the break room  
@@ -37,7 +37,7 @@ To deploy this app:
 
 The console should display:
 
-Hello Modules Using Non-Modularized Library!   
+Hello Modules Using a Non-Modularized Library!   
 Publisher is instantiated  
 Subscriber is instantiated  
 Subscriber received a rumor: Pizza in the break room  

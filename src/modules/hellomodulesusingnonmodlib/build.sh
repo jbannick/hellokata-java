@@ -5,8 +5,8 @@ mkdir -p mods
 cp $EBUS_HOME/eventbus-1.4.jar mods
 CP=./mods/eventbus-1.4.jar
 
-javac --module-path mods -d out --module-source-path src -m hmod1lib\
-    src/hmod1lib/kata/hmod/HelloModulesUsingNonModLib.java \
-    src/hmod1lib/kata/hmod/Publisher.java \
-    src/hmod1lib/kata/hmod/Subscriber.java \
-    src/hmod1lib/module-info.java
+javac --module-path mods -d out --module-source-path src -m appmod\
+    src/appmod/kata/app/HelloModulesUsingNonModLib.java \
+    src/appmod/kata/app/Publisher.java \
+    src/appmod/kata/app/Subscriber.java \
+    src/appmod/module-info.java

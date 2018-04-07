@@ -7,19 +7,18 @@ In order to parse the JSON configuration file, it requires the Jackson JSON pars
 To build and run this app:
 
 - You must have Java installed
-- You must have log4j-core-2.10.0.jar at LOG4J2_HOME
-- You must have log4j-api-2.10.0.jar  at LOG4J2_HOME
-- You must have jackson-core-2.9.4.jar        at JSON_HOME
-- You must have jackson-databind-2.9.4.jar    at JSON_HOME
-- You must have jackson-annotations-2.9.4.jar at JSON_HOME
+- You must have log4j-core-2.11.0.jar at LOG4J2_HOME
+- You must have log4j-api-2.11.0.jar  at LOG4J2_HOME
+- You must have jackson-core-2.9.0.jar        at JSON_HOME
+- You must have jackson-databind-2.9.0.jar    at JSON_HOME
+- You must have jackson-annotations-2.9.0.jar at JSON_HOME
 
 Download Log4J2 from: https://logging.apache.org/log4j/2.x/download.html
 
 Download the Jackson JSON parser from:  
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.4  
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.4  
-http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.4/  
-
+http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.0  
+http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0    
+http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.0  
 
 1. Copy the src directory tree to your destination location
 2. Copy build.sh to that location

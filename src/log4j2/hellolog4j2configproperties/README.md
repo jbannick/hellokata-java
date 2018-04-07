@@ -5,8 +5,11 @@ It displays your INFO, DEBUG, WARN, and ERROR messages to the console.
 To build and run this app:
 
 - You must have Java installed
-- You must have log4j-core-2.10.0.jar at LOG4J2_HOME
-- You must have log4j-api-2.10.0.jar  at LOG4J2_HOME
+- You must have log4j-core-2.11.0.jar at LOG4J2_HOME
+- You must have log4j-api-2.11.0.jar  at LOG4J2_HOME
+
+WARNING: Log4J2 2.10 has a bug that causes a runtime error when used with Java Modules.
+Best use 2.11 or later.
 
 Download Log4J2 from: https://logging.apache.org/log4j/2.x/download.html
 

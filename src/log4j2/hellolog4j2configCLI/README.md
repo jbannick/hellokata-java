@@ -14,6 +14,9 @@ To build and run this app:
 - You must have log4j-core-2.11.0.jar at LOG4J2_HOME
 - You must have log4j-api-2.11.0.jar  at LOG4J2_HOME
 
+WARNING: Log4J2 2.10 has a bug that causes a runtime error when used with Java Modules.
+Best use 2.11 or later.
+
 Download Log4J2 from: https://logging.apache.org/log4j/2.x/download.html
 1. Copy the src directory tree to your destination location
 2. Copy build.sh to that location

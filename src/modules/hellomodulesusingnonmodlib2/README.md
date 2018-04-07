@@ -11,8 +11,8 @@ To build and run this app:
 
 Download these Jars from:  
 http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.0/  
-http://central.maven.org/maven2/com/fasterxml/jackson/annotations/jackson-annotations/2.9.0/  
-http://central.maven.org/maven2/com/fasterxml/jackson/databind/jackson-databind/2.9.0/  
+http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/  
+http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.0/  
 
 Note: The databind JAR is treated here as an Automatic Module. The other two JARs are classpathed and considered the Unnamed Module.
 

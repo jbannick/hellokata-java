@@ -5,8 +5,8 @@ The contents of the two required Log4J2 JAR files are extracted and copied into 
 To build and run this app:
 
 - You must have Java installed
-- You must have log4j-core-2.10.0.jar at LOG4J2_HOME
-- You must have log4j-api-2.10.0.jar  at LOG4J2_HOME
+- You must have log4j-core-2.11.0.jar at LOG4J2_HOME
+- You must have log4j-api-2.11.0.jar  at LOG4J2_HOME
 
 Download Log4J2 from: https://logging.apache.org/log4j/2.x/download.html
 

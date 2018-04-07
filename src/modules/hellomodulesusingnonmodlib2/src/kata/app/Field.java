@@ -7,10 +7,6 @@ public class Field {
         this.name = name;
     }
 
-    public Field(final String name, final Field[] subfields) {
-        this.name = name;
-    }
-
     public String getName() {
         return name;
     }

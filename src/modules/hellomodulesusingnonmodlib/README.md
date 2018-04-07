@@ -1,4 +1,4 @@
-This modularized app uses a single non-modularized library.
+This modularized app uses a single non-modularized library, which is contained in a single JAR file.
 
 That library is the eventbus library, used to publish and subscribe to messages.
 

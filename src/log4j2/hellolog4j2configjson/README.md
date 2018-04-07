@@ -13,6 +13,11 @@ To build and run this app:
 - You must have jackson-databind-2.9.0.jar    at JSON_HOME
 - You must have jackson-annotations-2.9.0.jar at JSON_HOME
 
+WARNING: Jackson's databind for versions later than 2.9.0 DOES NOT WORK with Java Modules.
+Specifically, Java can not find the jackson.databind module.
+
+WARNING: Log4J2 2.10 has a bug that causes a runtime error when used with Java Modules.
+Best use 2.11 or later.
 Download Log4J2 from: https://logging.apache.org/log4j/2.x/download.html
 
 Download the Jackson JSON parser from:  

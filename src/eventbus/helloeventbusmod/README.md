@@ -1,5 +1,7 @@
 This app uses the EventBus library to publish and subscribe to messages.
 
+This app is modularized.
+
 To build and run this app:
 
 - You must have Java 9 or greater installed

@@ -1,4 +1,4 @@
-This app uses the EventBus library to publish and subscribe to messages.
+This app uses the EventBus library to connect Publisher and Subscriber.
 
 To build and run this app:
 

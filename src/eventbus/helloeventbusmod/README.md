@@ -1,10 +1,10 @@
-This app uses the EventBus library to publish and subscribe to messages.
+This app uses the EventBus library to connect Publisher and Subscriber.
 
 This app is modularized.
 
 To build and run this app:
 
-- You must have Java 9 or greater installed
+- You must have Java JDK 9 or greater installed
 - You must have eventbus-1.4.jar at EBUS_HOME
 
 Download eventbus from: 
@@ -29,7 +29,9 @@ Subscriber received a rumor: Pizza in the break room
 
 To deploy this app:
 
-- You must have Java 9 or greater installed on the destination computer
+- You must have installed on the destination computer a Java JRE 
+with a version that is at or later than the version of the JDK you used
+to build this app
 
 1. Copy the mod and out directories and run.sh file to the destination computer and directory
 2. At the command line, cd to that location

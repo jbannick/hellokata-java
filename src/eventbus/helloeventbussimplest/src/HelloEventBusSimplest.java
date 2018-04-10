@@ -1,7 +1,7 @@
 public class HelloEventBusSimplest {
 
     public static void main(String... args) {
-        System.out.println("Hello Modules Using a Non-Modularized Library!");
+        System.out.println("Hello EventBus!");
 
         Publisher pub = new Publisher();
         Subscriber sub = new Subscriber();

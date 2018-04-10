@@ -2,7 +2,7 @@ This app uses the EventBus library to connect Publisher and Subscriber.
 
 To build and run this app:
 
-- You must have any Java JDK installed
+- You must have any Java JDK release 1.4 or later installed
 - You must have eventbus-1.4.jar at EBUS_HOME
 
 Download eventbus from: 

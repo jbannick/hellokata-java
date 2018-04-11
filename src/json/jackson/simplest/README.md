@@ -1,10 +1,12 @@
-This app uses a single non-modularized library, which consists of three JAR files.
+This app uses the Jackson JSON library to derive JSON from class instances.
 
-That library is the Jackson JSON library, here used to derive JSON from class instances.
+It outputs prettyprinted JSON, with newlines and indents.
+
+It suppresses output of null values.
 
 To build and run this app:
 
-- You must have a Java JDK installed
+- You must have the Java JDK 7 or later installed
 - You must have jackson-core.2.9.0.jar at JSON_HOME
 - You must have jackson-annotations.2.9.0.jar at JSON_HOME
 - You must have jackson-databind.2.9.0.jar at JSON_HOME
@@ -14,8 +16,9 @@ http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.0/
 http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/  
 http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.0/  
 
-WARNING: Jackson's databind for versions later than 2.9.0 would work here. However, it will not work with Java Modules.
-Specifically, Java can not find the jackson.databind module.
+WARNING: Jackson's databind for versions later than 2.9.0 would work here.  
+However, it will not work with Java 9 Modules.
+Specifically, for Jackson versions 2.9.1 - 2.9.5, Java can not find the jackson.databind module.
 
 1. Copy the src directory tree to your destination location
 2. Copy build.sh to that location
@@ -55,7 +58,7 @@ Hello JSON using Jackson!
 
 To deploy this app:
 
-- You must have Java JRE for the release you used for building, or greater, installed on the destination computer
+- You must have the Java JRE for the release you used for building, or greater, installed on the destination computer
 
 1. Copy the lib, and out directories and run.sh file to the destination computer and directory
 2. At the command line, cd to that location

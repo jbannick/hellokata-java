@@ -16,7 +16,7 @@ http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.0/
 http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/  
 http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.0/  
 
-WARNING: Jackson's databind for versions later than 2.9.0 would work here.  
+WARNING: Jackson's databind for versions later than 2.9.0 __would__ work here.  
 However, it will not work with Java 9 Modules.  
 Specifically, for Jackson versions 2.9.1 - 2.9.5, Java can not find the jackson.databind module.
 

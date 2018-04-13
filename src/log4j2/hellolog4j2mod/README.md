@@ -35,6 +35,12 @@ Hello Log4J2 Modularized!
 05:05:10.800 [main] WARN  kata.app.HelloLog4J2Mod - This is a warning entry  
 05:05:10.800 [main] ERROR kata.app.HelloLog4J2Mod - This is an error entry  
 
+A file named hellolog4j2.log should be written to your ./logs directory.  
+Note that, by default, Log4J2 appends to existing log files.
+
+Note that the Log4J2 configuration is defined in the log4j2.xml file,
+which is located within the app module.
+
 To deploy this app:
 
 - You must have Java JRE at or later than the release you used to build this installed on the destination computer
@@ -50,3 +56,6 @@ Hello Log4J2 Modularized!
 05:05:10.800 [main] DEBUG kata.app.HelloLog4J2Mod - This is a debugging entry  
 05:05:10.800 [main] WARN  kata.app.HelloLog4J2Mod - This is a warning entry  
 05:05:10.800 [main] ERROR kata.app.HelloLog4J2Mod - This is an error entry  
+
+A file named hellolog4j2.log should be written to your ./logs directory.  
+Note that, by default, Log4J2 appends to existing log files.

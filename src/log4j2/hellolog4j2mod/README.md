@@ -12,7 +12,7 @@ Download these Jars from:
 http://central.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.0/  
 http://central.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.0/  
 
-WARNING: Log4J2's modularization for version 2.10.0 DOES NOT WORK here.
+WARNING: Log4J2's modularization for version 2.10.0 DOES NOT WORK here.  
 Specifically, it throws the exception:
 ```
 java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.util.PropertiesUtil

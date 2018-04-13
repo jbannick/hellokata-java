@@ -45,7 +45,7 @@ To deploy this app:
 
 - You must have Java JRE at or later than the release you used to build this installed on the destination computer
 
-1. Copy the mods, lib, and out directories and run.sh file to the destination computer and directory
+1. Copy the mods and out directories and run.sh file to the destination computer and directory
 2. At the command line, cd to that location
 2. At the command line, execute: run.sh
 

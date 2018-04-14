@@ -3,6 +3,7 @@ module appmod {
     requires eventbus;
     requires commons.csv;
     requires jackson.databind;
+    requires jackson.core;
 
     opens kata.app;
 }

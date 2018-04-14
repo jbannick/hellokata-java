@@ -1,6 +1,6 @@
 This modularized app uses the Log4J2 library for event logging.
 
-That library is itself modularized library, and consists of two JAR files.
+That library is itself a fully modularized library, consisting of two JAR files.
 
 To build and run this app:
 

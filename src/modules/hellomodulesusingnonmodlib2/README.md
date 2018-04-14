@@ -4,7 +4,7 @@ That library is the Jackson JSON library, here used to derive JSON from class in
 
 To build and run this app:
 
-- You must have Java 9 or greater installed
+- You must have Java JDK 9 or greater installed
 - You must have jackson-core.2.9.0.jar at JSON_HOME
 - You must have jackson-annotations.2.9.0.jar at JSON_HOME
 - You must have jackson-databind.2.9.0.jar at JSON_HOME
@@ -16,7 +16,7 @@ http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.
 
 Note: The databind JAR is treated here as an Automatic Module. The other two JARs are classpathed and considered the Unnamed Module.
 
-WARNING: Jackson's databind for versions later than 2.9.0 DOES NOT WORK here.
+WARNING: Jackson's databind for versions 2.9.1 through 2.9.5 DO NOT WORK here.
 Specifically, Java can not find the jackson.databind module.
 
 1. Copy the src directory tree to your destination location
@@ -36,7 +36,7 @@ Hello Modules Using a Non-Modularized Library 2!
 
 To deploy this app:
 
-- You must have Java 9 or greater installed on the destination computer
+- You must have Java JRE 9 or greater installed on the destination computer
 
 1. Copy the mods, lib, and out directories and run.sh file to the destination computer and directory
 2. At the command line, cd to that location

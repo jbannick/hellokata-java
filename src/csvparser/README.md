@@ -21,13 +21,13 @@ The app should build.
 
 The console should display:
 
-Hello CSVParser!
-first_name 	= john
-last_name 	= bannick
-first_name 	= elmer
-last_name 	= fudd
-first_name 	= bugs
-last_name 	= bunny 
+Hello CSVParser!  
+first_name 	= john  
+last_name 	= bannick  
+first_name 	= elmer  
+last_name 	= fudd  
+first_name 	= bugs  
+last_name 	= bunny   
 
 To deploy this app:
 
@@ -41,10 +41,10 @@ to build this app
 
 The console should display:
 
-Hello CSVParser!
-first_name 	= john
-last_name 	= bannick
-first_name 	= elmer
-last_name 	= fudd
-first_name 	= bugs
+Hello CSVParser!  
+first_name 	= john  
+last_name 	= bannick  
+first_name 	= elmer  
+last_name 	= fudd  
+first_name 	= bugs  
 last_name 	= bunny  

@@ -29,12 +29,11 @@ The app should build.
 
 The console should display:
 
-Hello Log4J2 Modularized!  
-05:05:10.796 [main] INFO  kata.app.HelloLog4J2Mod - This is an information entry  
-05:05:10.800 [main] DEBUG kata.app.HelloLog4J2Mod - This is a debugging entry  
-05:05:10.800 [main] WARN  kata.app.HelloLog4J2Mod - This is a warning entry  
-05:05:10.800 [main] ERROR kata.app.HelloLog4J2Mod - This is an error entry  
-
+Hello Modules using a Modularized Library!  
+12:12:52.890 [main] INFO  kata.app.HelloModulesUsingModLib - This is an information entry  
+12:12:53.053 [main] DEBUG kata.app.HelloModulesUsingModLib - This is a debugging entry  
+12:12:53.053 [main] WARN  kata.app.HelloModulesUsingModLib - This is a warning entry  
+12:12:53.054 [main] ERROR kata.app.HelloModulesUsingModLib - This is an error entry  
 A file named hellolog4j2.log should be written to your ./logs directory.  
 Note that, by default, Log4J2 appends to existing log files.
 
@@ -51,11 +50,10 @@ To deploy this app:
 
 The console should display:
 
-Hello Log4J2 Modularized!  
-05:05:10.796 [main] INFO  kata.app.HelloLog4J2Mod - This is an information entry  
-05:05:10.800 [main] DEBUG kata.app.HelloLog4J2Mod - This is a debugging entry  
-05:05:10.800 [main] WARN  kata.app.HelloLog4J2Mod - This is a warning entry  
-05:05:10.800 [main] ERROR kata.app.HelloLog4J2Mod - This is an error entry  
-
+Hello Modules using a Modularized Library!  
+12:12:52.890 [main] INFO  kata.app.HelloModulesUsingModLib - This is an information entry  
+12:12:53.053 [main] DEBUG kata.app.HelloModulesUsingModLib - This is a debugging entry  
+12:12:53.053 [main] WARN  kata.app.HelloModulesUsingModLib - This is a warning entry  
+12:12:53.054 [main] ERROR kata.app.HelloModulesUsingModLib - This is an error entry  
 A file named hellolog4j2.log should be written to your ./logs directory.  
 Note that, by default, Log4J2 appends to existing log files.

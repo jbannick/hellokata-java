@@ -1,4 +1,9 @@
-This modularized app uses the Apache Commons CSVParser library to parse a comma separated variable (CSV) file.
+This app uses the Apache Commons CSVParser library to parse a comma separated variable (CSV) file.
+
+This app is modularized.
+
+The CSVParser library is not modularized.  
+Here we make it an Automatic module.
 
 To build and run this app:
 

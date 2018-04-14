@@ -1,6 +1,15 @@
-This modularized app uses the Jackson JSON library to derive JSON from class instances.
+This app uses the Jackson JSON library to derive JSON from class instances.
 
-That library is itself non-modularized library, and consists of three JAR files.
+This app is modularized.
+
+The Jackson JSON library is not modularized.  
+It consists of three JAR files.  
+Here we make one of those JAR filea an Automatic module.  
+We leave the other two JAR files classpathed, or in the Unnamed module.
+
+This is because our app depends on databind, but not on the other two. 
+Databind depends on those.   
+We could have made all three into Automatic modules.
 
 To build and run this app:
 
@@ -13,8 +22,6 @@ Download these Jars from:
 http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.0/  
 http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/  
 http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.0/  
-
-Note: The databind JAR is treated here as an Automatic Module. The other two JARs are classpathed and considered the Unnamed Module.
 
 WARNING: Jackson's databind for versions 2.9.1 - 2.9.5 DOES NOT WORK here.
 Specifically, Java can not find the jackson.databind module.

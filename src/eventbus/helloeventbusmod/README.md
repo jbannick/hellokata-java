@@ -2,6 +2,9 @@ This app uses the EventBus library to connect Publisher and Subscriber.
 
 This app is modularized.
 
+The EventBus library is not modularized.
+Here we make it into an Automatic module.
+
 To build and run this app:
 
 - You must have Java JDK 9 or greater installed

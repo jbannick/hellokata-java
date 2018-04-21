@@ -7,7 +7,7 @@ Here we make it an Automatic module.
 
 To build and run this app:
 
-- You must have any Java JDK release 1.7 or later installed
+- You must have any Java JDK release 9 or later installed
 - You must have commons-csv-1.5.jar at CSV_HOME
 
 Download CSVParser from: 

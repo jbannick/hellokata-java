@@ -25,7 +25,7 @@ The app should build.
 
 The console should display:
 
-Hello Hello EventBus Modularized!    
+Hello EventBus Modularized!    
 Publisher is instantiated  
 Subscriber is instantiated  
 Subscriber received a rumor: Pizza in the break room  
@@ -42,7 +42,7 @@ to build this app
 
 The console should display:
 
-Hello Hello EventBus Modularized!  
+Hello EventBus Modularized!  
 Publisher is instantiated  
 Subscriber is instantiated  
 Subscriber received a rumor: Pizza in the break room  

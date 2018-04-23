@@ -26,7 +26,7 @@ Specifically, it throws the exception:
 java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.util.PropertiesUtil
 ```
 
-WARNING: Jackson's databind for versions 2.9.1 - 2.9.5 DOES NOT WORK here.
+WARNING: Jackson's databind for versions 2.9.1 - 2.9.5 DO NOT WORK here.
 Specifically, Java can not find the jackson.databind module.
 
 Here we make all of these libraries into Automatic modules.

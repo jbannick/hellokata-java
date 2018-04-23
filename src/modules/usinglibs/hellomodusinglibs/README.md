@@ -5,15 +5,12 @@ This modularized app uses four libraries:
 - The EventBus publish / subscribe library to transmit data between the two
 - The Log4J2 library to log the events
 
-None of The libraries are modularized.
+None of these libraries are modularized.
 
-The CSVParser library consists of one JAR.  
-
-The Jackson JSON library consists of three JARs.  
-
-The EventBus library consists of one JAR.  
-
-The Log4J2 library consists of two JARs.
+- The CSVParser library consists of one JAR.  
+- The Jackson JSON library consists of three JARs.  
+- The EventBus library consists of one JAR.  
+- The Log4J2 library consists of two JARs.
 
 The log4j-core.2.11.0.jar's MANIFEST.MF contains:  
 Automatic-Module-Name: org.apache.logging.log4j.core
@@ -28,6 +25,10 @@ Specifically, it throws the exception:
 ```
 java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.util.PropertiesUtil
 ```
+
+WARNING: Jackson's databind for versions 2.9.1 - 2.9.5 DOES NOT WORK here.
+Specifically, Java can not find the jackson.databind module.
+
 Here we make all of these libraries into Automatic modules.
 
 The app itself is deployed in a JAR.  

@@ -23,7 +23,7 @@ http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.0/
 http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/  
 http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.0/  
 
-WARNING: Jackson's databind for versions 2.9.1 - 2.9.5 DOES NOT WORK here.
+WARNING: Jackson's databind for versions 2.9.1 - 2.9.5 DO NOT WORK here.
 Specifically, Java can not find the jackson.databind module.
 
 1. Copy the src directory tree to your destination location

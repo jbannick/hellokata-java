@@ -44,6 +44,9 @@ Here we make all of these libraries into Automatic modules.
 The app itself is deployed in a JAR.  
 The log4j2.xml configuration file is included in that JAR.
 
+The names.csv file is external to the JAR.  
+(Go ahead and add your own name.)
+
 To build and run this app:
 
 - You must have any Java JDK release 9 or later installed

@@ -83,7 +83,7 @@ The app should build.
 
 The console should display:
 
-Hello Modules Using Multiple Libraries  
+Hello Modules Using Multiple Libraries!  
 04:54:42.055 [AWT-EventQueue-0] INFO  kata.app.HelloModUsingLibs - Reading CSV  
 04:54:42.098 [AWT-EventQueue-0] INFO  kata.app.JSONWriter - {"first_name":"john","last_name":"bannick"}  
 04:54:42.099 [AWT-EventQueue-0] INFO  kata.app.JSONWriter - {"first_name":"elmer","last_name":"fudd"}  
@@ -106,7 +106,7 @@ To deploy this app:
 
 The console should display:
 
-Hello Modules Using Multiple Libraries  
+Hello Modules Using Multiple Libraries!  
 04:54:42.055 [AWT-EventQueue-0] INFO  kata.app.HelloModUsingLibs - Reading CSV  
 04:54:42.098 [AWT-EventQueue-0] INFO  kata.app.JSONWriter - {"first_name":"john","last_name":"bannick"}  
 04:54:42.099 [AWT-EventQueue-0] INFO  kata.app.JSONWriter - {"first_name":"elmer","last_name":"fudd"}  

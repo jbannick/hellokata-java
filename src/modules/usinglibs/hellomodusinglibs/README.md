@@ -12,11 +12,15 @@ None of these libraries are modularized.
 - The EventBus library consists of one JAR.  
 - The Log4J2 library consists of two JARs.
 
-The log4j-core.2.11.0.jar's MANIFEST.MF contains:  
+The log4j-core.2.11.0.jar's MANIFEST.MF contains: 
+`````` 
 Automatic-Module-Name: org.apache.logging.log4j.core
+```
 
-The MANIFEST.MF in both JARs contain:  
+The MANIFEST.MF in both JARs contain: 
+``` 
 Multi-Release: true
+```
 
 Both JAR's contain version directory trees for Java 9.
 

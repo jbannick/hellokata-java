@@ -7,3 +7,5 @@ This means that the target computer does not require Java to be installed; or ca
 From a purely technical perspective, installing a JRE on a target computer is normally no big deal.
 
 It can be a show stopper however, from an administrative perspective, particularly given today's increasing cyber security consciousness.
+
+Custom images are one way to mitigate this.

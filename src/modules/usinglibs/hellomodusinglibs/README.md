@@ -13,7 +13,7 @@ None of these libraries are modularized.
 - The Log4J2 library consists of two JARs.
 
 The log4j-core.2.11.0.jar's MANIFEST.MF contains: 
-`````` 
+```
 Automatic-Module-Name: org.apache.logging.log4j.core
 ```
 

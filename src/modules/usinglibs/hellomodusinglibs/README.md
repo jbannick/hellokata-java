@@ -1,4 +1,10 @@
-This modularized app uses four libraries:
+This modularized app:
+
+1. Reads and parses a CSV file
+2. Publishes those records to a subscriber
+3. Which converts them into JSON
+
+It uses four libraries:
 
 - The Apache Commons CSVParser library to parse a CSV file
 - The Jackson JSON library to write JSON output

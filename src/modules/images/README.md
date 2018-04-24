@@ -9,4 +9,6 @@ From a purely technical perspective, installing a JRE on a target computer is no
 
 It can be a show stopper however, from an administrative perspective, particularly given today's increasing cyber security consciousness.
 
+It can also be problematic if you're shipping to a consumer market, where the technical skills needed to install Java may be limited.
+
 Custom images are one way to mitigate this.

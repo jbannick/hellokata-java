@@ -12,7 +12,7 @@ import static kata.app.CSVReader.*;
 public class JSONWriter implements EventTopicSubscriber {
 
     private static final Logger logger = LogManager.getLogger();
-    private ObjectMapper mapper = new ObjectMapper();
+    private final ObjectMapper mapper = new ObjectMapper();
     private Person person;
 
     public JSONWriter() {

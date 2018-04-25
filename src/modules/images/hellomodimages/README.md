@@ -18,7 +18,7 @@ To build and run this app:
 The app should build:
 
 a. A directory, mods, that contains appmod.jar  
-b. An image directory tree, appmod-image, that contains a subset of the Java runtime envirionment
+b. An image directory tree, appmod-image, that contains a subset of the Java runtime environment
 
 5. At the command line, execute: run.sh
 

@@ -1,4 +1,4 @@
-This simple HelloWorld app contains its own on-board subset of the Java 9 runtime environment.
+This simple HelloWorld app contains its own on-board subset of the Java runtime environment.
 
 This Custom Runtime Image is a JRE that contains only those modules required to run your app.
 

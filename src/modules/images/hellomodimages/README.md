@@ -30,7 +30,9 @@ To build and run this app:
 The app should build:
 
 a. A directory, mods, that contains appmod.jar  
-b. An image directory tree, appmod-image-macos, that contains a subset of the Java runtime environment
+b. An image directory tree, appmod-image-linux, that contains a subset of the Java runtime environment that will run on Linux
+c. An image directory tree, appmod-image-macos, that contains a subset of the Java runtime environment that will run on a Mac
+d. An image directory tree, appmod-image-win64, that contains a subset of the Java runtime environment that will run on Windows
 
 5. At the command line, execute: run.sh
 
@@ -45,9 +47,9 @@ To run this app on another computer:
 
 1. Create a destination location directory on the destination computer
 2. Copy the appmod-image directory tree to the destination location on the destination computer
-4. Copy run.sh to the destination location
+4. Copy run_linux.sh, or run_macos.sh, or run_win64.bat, as appropriate, to the destination location
 5. On the destination computer, open up a command line terminal
 6. CD to the destination location
-7. At the command line, execute: run.sh
+7. At the command line, execute: run_linux.sh, or run_macos.sh, or run_win64.bat
 
 The app should display: Hello Modules Custom Images!

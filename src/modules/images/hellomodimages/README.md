@@ -40,13 +40,13 @@ The app should display: Hello Modules Custom Images!
 
 To run this app on another computer:
 
-- Your destination computer must use the **same operating system** you used to build your app, for example:  MacOS
+- Your destination computer can run either MacOS, Linux, or Windows
 - The release version of that operating system should not matter, but YMMV
 - It is not necessary to have Java installed on that computer
 - Having Java installed on that computer should not affect this app
 
 1. Create a destination location directory on the destination computer
-2. Copy the appmod-image directory tree to the destination location on the destination computer
+2. Copy either the appmod-image-linux, appmod-image-macos, or appmod-image-win64 directory tree, as appropriate, to the destination location on the destination computer
 4. Copy run_linux.sh, or run_macos.sh, or run_win64.bat, as appropriate, to the destination location
 5. On the destination computer, open up a command line terminal
 6. CD to the destination location

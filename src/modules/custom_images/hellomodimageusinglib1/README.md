@@ -8,6 +8,15 @@ It needs the Java 9 or later JDK on your build computer to build, but does not n
 
 It may be run only on computers using the same operating system, though not necessarily the same release, as the computer on which you built this app.
 
+The HACK consists of adding a module-info.class file to the eventbus JAR.
+
+To do this, we:
+
+1. Extract into a work directory the entire eventbus JAR 
+2. Use the Java jdeps tool to generate from the eventbus JAR a module-info.java file into that work directory
+3. Compile that module-info.java file using the Java 9 or greater JDK
+4. Update the eventbus JAR by inserting the resulting module-info.class file
+
 To build and run this app:
 
 - You must have the Java 9 or later JDK installed

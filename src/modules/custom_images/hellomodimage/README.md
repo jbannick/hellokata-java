@@ -2,7 +2,7 @@ This simple HelloWorld app contains its own on-board subset of the Java runtime 
 
 Java 9 and later JRE's are modularized. 
 
-A Custom Runtime Image is a JRE that contains only those modules required to run your app.
+A Custom Runtime Image contains your app, as a module, and a JRE that contains only those modules required to run your app.
 
 It needs the Java 9 or later JDK on your build computer to build, but does not need Java installed on the destination computer to run.
 

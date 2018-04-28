@@ -1,6 +1,6 @@
 This simple publish / subscribe app contains its own on-board subset of the Java runtime environment.
 
-It uses a HACK to make the otherwise-image-able eventbus library available to a custom runtime image.
+It uses a HACK to make the otherwise un-image-able eventbus library available to a custom runtime image.
 
 A Custom Runtime Image is a JRE that contains only those modules required to run your app.
 

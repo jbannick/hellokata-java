@@ -2,6 +2,8 @@ This simple publish / subscribe app contains its own on-board subset of the Java
 
 It uses a HACK to make the otherwise un-image-able eventbus library available to a custom runtime image.
 
+Java 9 and later JRE's are modularized.
+
 A Custom Runtime Image is a JRE that contains only those modules required to run your app.
 
 It needs the Java 9 or later JDK on your build computer to build, but does not need Java installed on the destination computer to run.

@@ -23,7 +23,6 @@ cp eventbus-1.4.jar ../mods
 
 cd ..
 
-#javac --module-path mods -d out --module-source-path src -m appmod \
 javac --module-path mods -d out \
     src/appmod/kata/app/HelloModImageUsingLib1.java \
     src/appmod/kata/app/Publisher.java \

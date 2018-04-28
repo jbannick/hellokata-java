@@ -4,10 +4,12 @@ This simple HelloWorld app contains its own on-board subsets of the Java runtime
 - Windows64
 - Linux
 
-A Custom Runtime Image is a JRE that runs on a specific OS and contains only those modules required to run your app.
+Java 9 and later JRE's are modularized. 
+
+A Custom Runtime Image contains your app, as a module, and a JRE that contains only those modules required to run your app.
 
 It needs the Java 9 or later JDK on your build computer to build.  
-It also needs on your build computer the Java 9 or later JDKs for each of your other destination operating systems.
+It also needs on your build computer the Java 9 or later JDKs for ***each*** of your other destination operating systems.
 
 It does not need Java installed on a destination computer to run.
 
@@ -29,10 +31,10 @@ To build and run this app:
 
 The app should build:
 
-a. A directory, mods, that contains appmod.jar  
-b. An image directory tree, appmod-image-linux, that contains a subset of the Java runtime environment that will run on Linux
-c. An image directory tree, appmod-image-macos, that contains a subset of the Java runtime environment that will run on a Mac
-d. An image directory tree, appmod-image-win64, that contains a subset of the Java runtime environment that will run on Windows
+* a. An image directory tree, appmod-image-linux, that contains a subset of the Java runtime environment that will run on Linux
+* b. An image directory tree, appmod-image-macos, that contains a subset of the Java runtime environment that will run on a Mac
+* c. An image directory tree, appmod-image-win64, that contains a subset of the Java runtime environment that will run on Windows
+* d. Additional directories used only during the build process
 
 5. At the command line, execute: run.sh
 

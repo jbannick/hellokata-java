@@ -30,7 +30,7 @@ To build and run this app:
 
 The app should build:
 
-* a. An image directory tree, appmod-image, that contains your application, the eventbus library, both as modules, and the subset of the Java runtime environment necessary to run that app
+* a. An image directory tree, appmod-image, that contains your application, the HACKED eventbus library, both as modules, and the subset of the Java runtime environment necessary to run that app
 * b. Additional directories used only during the build process
 
 5. At the command line, execute: run.sh

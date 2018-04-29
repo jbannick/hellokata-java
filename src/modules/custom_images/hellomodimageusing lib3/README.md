@@ -40,7 +40,8 @@ The app should build:
 
 5. At the command line, execute: run.sh
 
-The app should display: Hello Modularized Image Using Library 3!  
+The app should display:  
+Hello Modularized Image Using Library 3!  
 {  
   "firstName" : "John",  
   "lastName" : "Bannick"  
@@ -60,7 +61,8 @@ To run this app on another computer:
 6. CD to the destination location
 7. At the command line, execute: run.sh
 
-The app should display: Hello Modularized Image Using Library 3!  
+The app should display:  
+Hello Modularized Image Using Library 3!  
 {  
   "firstName" : "John",  
   "lastName" : "Bannick"  

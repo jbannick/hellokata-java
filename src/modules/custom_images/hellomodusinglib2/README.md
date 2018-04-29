@@ -1,6 +1,6 @@
-This simple publish / subscribe app contains its own on-board subset of the Java runtime environment.
+This simple CSV parsing app contains its own on-board subset of the Java runtime environment.
 
-It uses a HACK to make the otherwise un-image-able eventbus library available to a custom runtime image.
+It uses a HACK to make the otherwise un-image-able commons.csv library available to a custom runtime image.
 
 Java 9 and later JRE's are modularized.
 
@@ -10,14 +10,14 @@ It needs the Java 9 or later JDK on your build computer to build, but does not n
 
 It may be run only on computers using the same operating system, though not necessarily the same release, as the computer on which you built this app.
 
-The HACK consists of adding a module-info.class file to the eventbus JAR.
+The HACK consists of adding a module-info.class file to the commons.csv JAR.
 
 To do this, we:
 
-1. Extract into a work directory the entire eventbus JAR 
-2. Use the Java jdeps tool to generate from the eventbus JAR a module-info.java file into that work directory
+1. Extract into a work directory the entire commons.csv JAR 
+2. Use the Java jdeps tool to generate from the commons.csv JAR a module-info.java file into that work directory
 3. Compile that module-info.java file using the Java 9 or greater JDK
-4. Update the eventbus JAR by inserting the resulting module-info.class file
+4. Update the commons.csv JAR by inserting the resulting module-info.class file
 
 To build and run this app:
 
@@ -30,16 +30,19 @@ To build and run this app:
 
 The app should build:
 
-* a. An image directory tree, appmod-image, that contains your application, the HACKED eventbus library, both as modules, and the subset of the Java runtime environment necessary to run that app
+* a. An image directory tree, appmod-image, that contains your application, the HACKED commons.csv library, both as modules, and the subset of the Java runtime environment necessary to run that app
 * b. Additional directories used only during the build process
 
 5. At the command line, execute: run.sh
 
-The app should display:  
-Hello Modularized Image Using Library 1!  
-Publisher is instantiated  
-Subscriber is instantiated  
-Subscriber received a rumor: Pizza in the break room  
+The app should display: 
+Hello Modularized Image Using Library 2!  
+first_name 	= john  
+last_name 	= bannick  
+first_name 	= elmer  
+last_name 	= fudd  
+first_name 	= bugs  
+last_name 	= bunny   
 
 To run this app on another computer:
 
@@ -55,8 +58,11 @@ To run this app on another computer:
 6. CD to the destination location
 7. At the command line, execute: run.sh
 
-The app should display:  
-Hello Modularized Image Using Library 1!  
-Publisher is instantiated  
-Subscriber is instantiated  
-Subscriber received a rumor: Pizza in the break room  
+The app should display: 
+Hello Modularized Image Using Library 2!  
+first_name 	= john  
+last_name 	= bannick  
+first_name 	= elmer  
+last_name 	= fudd  
+first_name 	= bugs  
+last_name 	= bunny  

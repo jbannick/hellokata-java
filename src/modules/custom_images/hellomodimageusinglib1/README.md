@@ -35,7 +35,8 @@ The app should build:
 
 5. At the command line, execute: run.sh
 
-The app should display: Hello Modularized Image Using Library 1!  
+The app should display:  
+Hello Modularized Image Using Library 1!  
 Publisher is instantiated  
 Subscriber is instantiated  
 Subscriber received a rumor: Pizza in the break room  
@@ -54,7 +55,8 @@ To run this app on another computer:
 6. CD to the destination location
 7. At the command line, execute: run.sh
 
-The app should display: Hello Modularized Image Using Library 1!  
+The app should display:  
+Hello Modularized Image Using Library 1!  
 Publisher is instantiated  
 Subscriber is instantiated  
 Subscriber received a rumor: Pizza in the break room  

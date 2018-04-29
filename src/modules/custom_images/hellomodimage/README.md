@@ -24,7 +24,8 @@ b. Additional directories used only during the build process
 
 5. At the command line, execute: run.sh
 
-The app should display: Hello Modules Custom Image!
+The app should display:  
+Hello Modules Custom Image!
 
 To run this app on another computer:
 
@@ -40,4 +41,5 @@ To run this app on another computer:
 6. CD to the destination location
 7. At the command line, execute: run.sh
 
-The app should display: Hello Modules Custom Image!
+The app should display:  
+Hello Modules Custom Image!

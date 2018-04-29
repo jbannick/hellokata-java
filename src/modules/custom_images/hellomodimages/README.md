@@ -38,7 +38,8 @@ The app should build:
 
 5. At the command line, execute: run.sh
 
-The app should display: Hello Modules Custom Images!
+The app should display:  
+Hello Modules Custom Images!
 
 To run this app on another computer:
 
@@ -54,4 +55,5 @@ To run this app on another computer:
 6. CD to the destination location
 7. At the command line, execute: run_linux.sh, or run_macos.sh, or run_win64.bat
 
-The app should display: Hello Modules Custom Images!
+The app should display:  
+Hello Modules Custom Images!

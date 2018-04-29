@@ -22,7 +22,7 @@ To do this, we:
 
 6. Repeat Steps 1 - 5 for the jackson.annotations JAR
 
-7. Repeat Steps 1 - 5 for the jackson.databind JAR ***except*** Step 2 and 3 include some additional options that make jdeps and javac aware of the two other JARed modules that databind depens on.
+7. Repeat Steps 1 - 5 for the jackson.databind JAR ***except*** Step 2 and 3 include some additional options that make jdeps and javac aware of the two other JARed modules that databind depends on.
 
 To build and run this app:
 

@@ -1,8 +1,6 @@
-TODO: convert this from lib1 to lib3
+This simple JSON app contains its own on-board subset of the Java runtime environment.
 
-This simple publish / subscribe app contains its own on-board subset of the Java runtime environment.
-
-It uses a HACK to make the otherwise un-image-able eventbus library available to a custom runtime image.
+It uses a HACK to make the otherwise un-image-able Jackson JSON library available to a custom runtime image.
 
 Java 9 and later JRE's are modularized.
 
@@ -12,14 +10,19 @@ It needs the Java 9 or later JDK on your build computer to build, but does not n
 
 It may be run only on computers using the same operating system, though not necessarily the same release, as the computer on which you built this app.
 
-The HACK consists of adding a module-info.class file to the eventbus JAR.
+The HACK consists of adding a module-info.class file to each of the three Jackson JSON JARs.
 
 To do this, we:
 
-1. Extract into a work directory the entire eventbus JAR 
-2. Use the Java jdeps tool to generate from the eventbus JAR a module-info.java file into that work directory
+1. Extract the entire jackson-core-2.9.0.jar 
+2. Use the Java jdeps tool to generate from jackson-core-2.9.0.jar a module-info.java file
 3. Compile that module-info.java file using the Java 9 or greater JDK
-4. Update the eventbus JAR by inserting the resulting module-info.class file
+4. Create a copy of jackson-core-2.9.0.jar named jackson.core.jar
+5. Update the jackson.core JAR by inserting the resulting module-info.class file
+
+6. Repeat Steps 1 - 5 for the jackson.annotations JAR
+
+7. Repeat Steps 1 - 5 for the jackson.databind JAR ***except*** Step 2 and 3 include some additional options that make jdeps and javac aware of the two other JARed modules that databind depens on.
 
 To build and run this app:
 
@@ -32,15 +35,16 @@ To build and run this app:
 
 The app should build:
 
-* a. An image directory tree, appmod-image, that contains your application, the HACKED eventbus library, both as modules, and the subset of the Java runtime environment necessary to run that app
+* a. An image directory tree, appmod-image, that contains your application, the HACKED Jackson JSON library, as modules, and the subset of the Java runtime environment necessary to run your app
 * b. Additional directories used only during the build process
 
 5. At the command line, execute: run.sh
 
-The app should display: Hello Modularized Image Using Library 1!  
-Publisher is instantiated  
-Subscriber is instantiated  
-Subscriber received a rumor: Pizza in the break room  
+The app should display: Hello Modularized Image Using Library 3!  
+{  
+  "firstName" : "John",  
+  "lastName" : "Bannick"  
+}   
 
 To run this app on another computer:
 
@@ -56,7 +60,8 @@ To run this app on another computer:
 6. CD to the destination location
 7. At the command line, execute: run.sh
 
-The app should display: Hello Modularized Image Using Library 1!  
-Publisher is instantiated  
-Subscriber is instantiated  
-Subscriber received a rumor: Pizza in the break room  
+The app should display: Hello Modularized Image Using Library 3!  
+{  
+  "firstName" : "John",  
+  "lastName" : "Bannick"  
+}   

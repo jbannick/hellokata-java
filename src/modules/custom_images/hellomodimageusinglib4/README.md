@@ -52,8 +52,6 @@ Hello Modularized Using Library 4!
 05:15:46.285 WARN HelloModImageUsingLib4 This is a warning entry  
 05:15:46.285 ERROR HelloModImageUsingLib4 This is an error entry  
 
-To deploy this app:
-
 To run this app on another computer:
 
 - Your destination computer must use the **same operating system** you used to build your app, for example:  MacOS

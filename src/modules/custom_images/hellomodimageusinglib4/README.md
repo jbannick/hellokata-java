@@ -5,7 +5,7 @@ This custom runtime image is a JRE that contains
 only those modules required to run your app.
 
 It needs the Java 9 or later JDK on your build computer to build, 
-but does not need Java installed on the destination computer to run.
+but does ***not*** need Java installed on the destination computer to run.
 
 It may be run only on computers using the same operating system, 
 though not necessarily the same release, as the computer on which you built this app.

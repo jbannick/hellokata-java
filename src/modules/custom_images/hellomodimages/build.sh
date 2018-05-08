@@ -2,6 +2,10 @@
 mkdir -p out
 mkdir -p mods
 
+rm -rf appmod-image-macos
+rm -rf appmod-image-win64
+rm -rf appmod-image-linux
+
 javac -d out \
     src/appmod/kata/app/HelloModulesImages.java \
     src/appmod/module-info.java

@@ -3,6 +3,7 @@ mkdir -p out
 mkdir -p mods
 mkdir -p libs
 mkdir -p work
+rm -rf appmod-image
 
 ROOT_DIR=$PWD
 

@@ -2,6 +2,7 @@
 mkdir -p out
 mkdir -p mods
 mkdir -p work
+rm -rf appmod-image
 
 cp $EBUS_HOME/eventbus-1.4.jar work
 

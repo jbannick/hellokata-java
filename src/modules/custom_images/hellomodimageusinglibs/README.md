@@ -21,6 +21,7 @@ The modularized app uses four libraries:
 - The EventBus publish / subscribe library to transmit data between the two
 - The Log4J2 library to log the events
 
+All libraries used by a Custom Runtime Image must be fully modularized.  
 Three of these libraries are totally non-modularized.
 
 - The CSVParser library consists of one JAR.  

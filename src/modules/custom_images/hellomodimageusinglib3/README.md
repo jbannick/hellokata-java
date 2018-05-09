@@ -1,4 +1,4 @@
-This simple JSON app contains its own on-board subset of the Java runtime environment.
+This modularized JSON app contains its own on-board subset of the Java runtime environment.
 
 It uses a HACK to make the otherwise un-image-able Jackson JSON library available to a custom runtime image.
 

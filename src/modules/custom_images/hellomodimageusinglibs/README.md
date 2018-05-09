@@ -80,6 +80,10 @@ Specifically, it throws the exception:
 ```
 java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.util.PropertiesUtil
 ```
+WARNING: Jackson's databind for versions 2.9.1 - 2.9.5 DO NOT WORK here.  
+Specifically, Java can not find the jackson.databind module.  
+So we use version 2.9.0.
+
 1. Copy the src directory tree to your destination location
 2. Copy build.sh to that location
 3. Copy run.sh to that location

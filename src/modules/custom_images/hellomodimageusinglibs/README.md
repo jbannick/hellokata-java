@@ -4,7 +4,17 @@ This modularized app:
 2. Publishes those records to a subscriber
 3. Which converts them into JSON
 
-It uses four libraries:
+It contains its own on-board subset of the Java runtime environment.
+
+Java 9 and later JRE's are modularized.
+
+A Custom Runtime Image contains your app, as a module, and a JRE that contains only those modules required to run your app.
+
+It needs the Java 9 or later JDK on your build computer to build, but does not need Java installed on the destination computer to run.
+
+It may be run only on computers using the same operating system, though not necessarily the same release, as the computer on which you built this app.
+
+The modularized app uses four libraries:
 
 - The Apache Commons CSVParser library to parse a CSV file
 - The Jackson JSON library to write JSON output

@@ -13,16 +13,11 @@ It uses four libraries:
 
 Three of these libraries are totally non-modularized.
 
-- The CSVParser library consists of one JAR.  
-  We use a hack to modularize it by adding a module-info.class file to its JAR  
-  
-- The Jackson JSON library consists of three JARs.  
-  We use the same hack to modularize those JARs.
-  
+- The CSVParser library consists of one JAR.    
+- The Jackson JSON library consists of three JARs.    
 - The EventBus library consists of one JAR.  
-  We use the same hack to modularize that JAR.
  
-- The Log4J2 library normally consists of two JARs.
+- The Log4J2 library consists of two JARs.
 
 Both JAR's are multi-release, containing version directory trees for Java 9.  
 Both JAR's contain version directory trees for Java 9.
@@ -30,8 +25,9 @@ Both JAR's contain version directory trees for Java 9.
 The log4j-api.2.11.0.jar is fully modularized.
 
 The log4j-core.2.11.0.jar is an Automatic Module.  
-This means that it is not modularized, 
-but can be used by our modularized app on the Module Path.
+It is so specified in its MANIFEST.MF file.
+
+Here we put all of these libraries on the Module Path, thus using them as Automatic modules.
 
 WARNING: Log4J2's version 2.10.0 DOES NOT WORK here.  
 Specifically, it throws the exception:
@@ -43,9 +39,7 @@ WARNING: Jackson's databind for versions 2.9.1 - 2.9.5 DO NOT WORK here.
 Specifically, Java can not find the jackson.databind module.  
 So we use version 2.9.0.
 
-Here we make all of these libraries into Automatic modules.
-
-The app itself is deployed in a JAR.  
+The modularized app itself is deployed in a JAR.  
 The log4j2.xml configuration file is included in that JAR.
 
 The names.csv file is external to the JAR.  
@@ -59,7 +53,8 @@ To build and run this app:
 - You must have jackson-annotations.2.9.0.jar at JSON_HOME
 - You must have jackson-databind.2.9.0.jar at JSON_HOME
 - You must have eventbus-1.4.jar at EBUS_HOME
-- You must have log4j-api.2.11.0.jar at LOG4J2_HOME
+- You must have log4j-api.2.11.0.jar at LOG4J2_HOME  
+- You must have log4j-core.2.11.0.jar at LOG4J2_HOME
 
 Download CSVParser from: 
 https://commons.apache.org/proper/commons-csv/download_csv.cgi
@@ -74,6 +69,7 @@ https://mvnrepository.com/artifact/org.bushe/eventbus/1.4
 
 Download Log4J2 from:   
 http://central.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.0/  
+http://central.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.0/  
 
 1. Copy the src directory tree to your destination location
 2. Copy names.csv to that location  

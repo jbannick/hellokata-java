@@ -8,24 +8,69 @@ rm -rf work
 mkdir -p out
 mkdir -p work
 
-rm -rf $ROOT_DIR/mods/commons-csv-1.5.jar
+cp $JSON_HOME/jackson-annotations-2.9.0.jar libs
+cp $JSON_HOME/jackson-core-2.9.0.jar libs
+cp $JSON_HOME/jackson-databind-2.9.0.jar libs
 
-cp $CSV_HOME/commons-csv-1.5.jar work
+# ------------------------------------------
+# create jackson-annotations modularized jar
 
-cd work
+rm -rf $ROOT_DIR/mods/jackson.annotations.jar
 
-jar -xf commons-csv-1.5.jar
+$JAVA_HOME/bin/jdeps --generate-module-info $ROOT_DIR/work $ROOT_DIR/libs/jackson-annotations-2.9.0.jar
+
+cp $ROOT_DIR/libs/jackson-annotations-2.9.0.jar $ROOT_DIR/mods/jackson.annotations.jar
+
+rm -rf classes
+mkdir classes
+cd $ROOT_DIR/classes
+jar -xf $ROOT_DIR/libs/jackson-annotations-2.9.0.jar
+
+cd $ROOT_DIR/work/jackson.annotations
+javac -p jackson.annotations -d $ROOT_DIR/classes module-info.java
+
+jar -uf $ROOT_DIR/mods/jackson.annotations.jar -C $ROOT_DIR/classes module-info.class
 
 cd $ROOT_DIR
 
-$JAVA_HOME/bin/jdeps --generate-module-info . work/commons-csv-1.5.jar
+# -----------------------------------
+# create jackson-core modularized jar
 
-javac commons.csv/module-info.java -d work
+rm -rf $ROOT_DIR/mods/jackson.core.jar
 
-cd work
+$JAVA_HOME/bin/jdeps --generate-module-info $ROOT_DIR/work $ROOT_DIR/libs/jackson-core-2.9.0.jar
 
-jar -uf commons-csv-1.5.jar module-info.class
+cp $ROOT_DIR/libs/jackson-core-2.9.0.jar $ROOT_DIR/mods/jackson.core.jar
 
-cp commons-csv-1.5.jar ../mods
+rm -rf classes
+mkdir classes
+cd $ROOT_DIR/classes
+jar -xf $ROOT_DIR/libs/jackson-core-2.9.0.jar
+
+cd $ROOT_DIR/work/jackson.core
+javac -p jackson.core -d $ROOT_DIR/classes module-info.java
+
+jar -uf $ROOT_DIR/mods/jackson.core.jar -C $ROOT_DIR/classes module-info.class
+
+cd $ROOT_DIR
+
+# ---------------------------------------
+# create jackson-databind modularized jar
+
+rm -rf $ROOT_DIR/mods/jackson.databind.jar
+
+jdeps --module-path $ROOT_DIR/mods --add-modules jackson.annotations,jackson.core --generate-module-info work $ROOT_DIR/libs/jackson-databind-2.9.0.jar
+
+cp $ROOT_DIR/libs/jackson-databind-2.9.0.jar $ROOT_DIR/mods/jackson.databind.jar
+
+rm -rf classes
+mkdir classes
+cd $ROOT_DIR/classes
+jar -xf $ROOT_DIR/libs/jackson-databind-2.9.0.jar
+
+cd $ROOT_DIR/work/jackson.databind
+javac --module-path $ROOT_DIR/mods --add-modules jackson.annotations,jackson.core -d $ROOT_DIR/classes module-info.java
+
+jar -uf $ROOT_DIR/mods/jackson.databind.jar -C $ROOT_DIR/classes module-info.class
 
 cd $ROOT_DIR

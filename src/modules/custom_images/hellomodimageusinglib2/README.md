@@ -1,4 +1,4 @@
-This simple CSV parsing app contains its own on-board subset of the Java runtime environment.
+This modularized CSV parsing app contains its own on-board subset of the Java runtime environment.
 
 It uses a HACK to make the otherwise un-image-able commons.csv library available to a custom runtime image.
 

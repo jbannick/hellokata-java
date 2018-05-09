@@ -17,7 +17,7 @@ Three of these libraries are totally non-modularized.
 - The Jackson JSON library consists of three JARs.    
 - The EventBus library consists of one JAR.  
  
-- The Log4J2 library consists of two JARs.
+The Log4J2 library is semi-modularized and consists of two JARs.
 
 Both JAR's are multi-release, containing version directory trees for Java 9.  
 Both JAR's contain version directory trees for Java 9.

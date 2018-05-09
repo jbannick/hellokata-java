@@ -1,4 +1,4 @@
-This modularized app:
+This modularized app is a Custom Runtime Image that:
 
 1. Reads and parses a CSV file
 2. Publishes those records to a subscriber

@@ -54,13 +54,12 @@ To build and run this app:
 
 - You must have Java JDK 9 or greater installed  
 
-- You must have commons-csv-1.5.jar at CSV_HOME
-- You must have jackson-core.2.9.0.jar at JSON_HOME
-- You must have jackson-annotations.2.9.0.jar at JSON_HOME
-- You must have jackson-databind.2.9.0.jar at JSON_HOME
-- You must have eventbus-1.4.jar at EBUS_HOME
+- You must have commons-csv-1.5.jar at CSV_HOME 
+- You must have jackson-core.2.9.0.jar at JSON_HOME 
+- You must have jackson-annotations.2.9.0.jar at JSON_HOME. 
+- You must have jackson-databind.2.9.0.jar at JSON_HOME. 
+- You must have eventbus-1.4.jar at EBUS_HOME. 
 - You must have log4j-api.2.11.0.jar at LOG4J2_HOME  
-
 
 Download CSVParser from: 
 https://commons.apache.org/proper/commons-csv/download_csv.cgi

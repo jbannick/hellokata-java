@@ -1,4 +1,4 @@
-This simple publish / subscribe app contains its own on-board subset of the Java runtime environment.
+This modularized publish / subscribe app contains its own on-board subset of the Java runtime environment.
 
 It uses a HACK to make the otherwise un-image-able eventbus library available to a custom runtime image.
 

@@ -11,24 +11,27 @@ It uses four libraries:
 - The EventBus publish / subscribe library to transmit data between the two
 - The Log4J2 library to log the events
 
-None of these libraries are modularized.
+Three of these libraries are totally non-modularized.
 
 - The CSVParser library consists of one JAR.  
+  We use a hack to modularize it by adding a module-info.class file to its JAR  
+  
 - The Jackson JSON library consists of three JARs.  
+  We use the same hack to modularize those JARs.
+  
 - The EventBus library consists of one JAR.  
-- The Log4J2 library consists of two JARs.
+  We use the same hack to modularize that JAR.
+ 
+- The Log4J2 library normally consists of two JARs.
 
-The log4j-core.2.11.0.jar's MANIFEST.MF contains: 
-```
-Automatic-Module-Name: org.apache.logging.log4j.core
-```
-
-The MANIFEST.MF in both JARs contain: 
-``` 
-Multi-Release: true
-```
-
+Both JAR's are multi-release, containing version directory trees for Java 9.  
 Both JAR's contain version directory trees for Java 9.
+
+The log4j-api.2.11.0.jar is fully modularized.
+
+The log4j-core.2.11.0.jar is an Automatic Module.  
+This means that it is not modularized, 
+but can be used by our modularized app on the Module Path.
 
 WARNING: Log4J2's version 2.10.0 DOES NOT WORK here.  
 Specifically, it throws the exception:
@@ -37,7 +40,8 @@ java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.lo
 ```
 
 WARNING: Jackson's databind for versions 2.9.1 - 2.9.5 DO NOT WORK here.  
-Specifically, Java can not find the jackson.databind module.
+Specifically, Java can not find the jackson.databind module.  
+So we use version 2.9.0.
 
 Here we make all of these libraries into Automatic modules.
 
@@ -55,7 +59,6 @@ To build and run this app:
 - You must have jackson-annotations.2.9.0.jar at JSON_HOME
 - You must have jackson-databind.2.9.0.jar at JSON_HOME
 - You must have eventbus-1.4.jar at EBUS_HOME
-- You must have log4j-core.2.11.0.jar at LOG4J2_HOME
 - You must have log4j-api.2.11.0.jar at LOG4J2_HOME
 
 Download CSVParser from: 
@@ -69,8 +72,7 @@ http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.
 Download eventbus from: 
 https://mvnrepository.com/artifact/org.bushe/eventbus/1.4
 
-Download Log4J2 from:  
-http://central.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.0/  
+Download Log4J2 from:   
 http://central.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.0/  
 
 1. Copy the src directory tree to your destination location

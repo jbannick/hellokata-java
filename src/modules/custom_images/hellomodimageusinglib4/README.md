@@ -1,4 +1,4 @@
-This simple app uses the Log4J2 library for event logging 
+This modularized app uses the Log4J2 library for event logging 
 and contains its own on-board subset of the Java runtime environment.
 
 This custom runtime image is a JRE that contains 

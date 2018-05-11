@@ -18,7 +18,7 @@ Similar to the standard logger, SimpleLogger lets your app:
 - Use all verbosities: INFO, DEBUG, WARN, ERROR
 - Control the timestamp format
 - Write to either the Console or a log file
-- Use an log4j.simplelog.properties configuration file
+- Use a log4j.simplelog.properties configuration file
 - Make runtime programmatic changes
 
 It does not enable the standard logger's:

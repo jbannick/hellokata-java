@@ -1,6 +1,6 @@
 These Kata are for Log4J2's SimpleLogger class.
 
-SimpleLogger is "...the default logger that is used when no suitable logging implementation is available."
+SimpleLogger is "...the default logger that is used when no suitable logging implementation is available." Apache.
 
 It requires only the log4j-api-2.nn.nn.jar file, which is fully modularized.  
 This enables apps using SimpleLogger, as opposed to the Log4J standard logger, to be made into a Custom Runtime Image.

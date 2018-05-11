@@ -21,7 +21,7 @@ Similar to the standard logger, SimpleLogger lets your app:
 - Include the filename in the output
 - Write to either the Console or a log file
 - Use a log4j.simplelog.properties configuration file
-- Make runtime programmatic changes
+- Make runtime programmatic changes to configured features
 
 It does not enable the standard logger's:
 - Additional information the app can include in its logging output: thread, filename, line numbers, etc.

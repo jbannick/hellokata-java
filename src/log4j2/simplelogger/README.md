@@ -12,6 +12,8 @@ The value added by Custom Images is that:
 1. The target computer does not require Java to be installed
 2. You can use the same code to create Custom Images for different operating systems, MacOS, Windows, Linux.
 
+Custom images must be built using Java 9 or greater.
+
 Similar to the standard logger, SimpleLogger lets your app:
 - Use all verbosities: INFO, DEBUG, WARN, ERROR
 - Control the timestamp format

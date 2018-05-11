@@ -23,5 +23,6 @@ Similar to the standard logger, SimpleLogger lets your app:
 
 It does not enable the standard logger's:
 - Additional information the app can include in its logging output: thread, filename, line numbers, etc.
+- More powerful output formatting
 - Use of alternate configuration file formats: XML, JSON, etc.
 - Many additional and powerful features

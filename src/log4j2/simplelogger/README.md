@@ -19,6 +19,7 @@ Similar to the standard logger, SimpleLogger lets your app:
 - Include the timestamp in the output
 - Control the timestamp format
 - Include the message origin classname in the output
+- Output to stdout, stderr, or a file
 
 It does not enable the standard logger's:
 - Additional information the app can include in its logging output: thread, filename, line numbers, etc.

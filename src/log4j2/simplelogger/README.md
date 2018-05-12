@@ -18,10 +18,7 @@ Similar to the standard logger, SimpleLogger lets your app:
 - Use all verbosities: INFO, DEBUG, WARN, ERROR
 - Include the timestamp in the output
 - Control the timestamp format
-- Include the filename in the output
-- Write to either the Console or a log file
-- Use a log4j.simplelog.properties configuration file
-- Make runtime programmatic changes to configured features
+- Include the message origin classname in the output
 
 It does not enable the standard logger's:
 - Additional information the app can include in its logging output: thread, filename, line numbers, etc.

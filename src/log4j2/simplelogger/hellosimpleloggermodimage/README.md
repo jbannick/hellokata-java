@@ -23,9 +23,8 @@ Both JAR's contain version directory trees for Java 9.
 
 The log4j-api.2.11.0.jar is fully modularized.
 
-The log4j-core.2.11.0.jar is an Automatic Module. 
-It is so specified in its MANIFEST.MF file.
-
+The log4j-core.2.11.0.jar is an Automatic Module.  
+It is so specified in its MANIFEST.MF file.  
 As such, it can ***not*** be used in a custom image.  
 
 However, Log4J2's Simple Logger will work with just the log4j-api.2.11.0.jar.  

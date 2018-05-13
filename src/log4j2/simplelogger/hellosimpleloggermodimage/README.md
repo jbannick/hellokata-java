@@ -1,4 +1,4 @@
-This simple modularized app is a Custom Runtime Image that uses the Log4J SimpleLogger to log events to the console.:
+This simple modularized app is a Custom Runtime Image that uses the Log4J SimpleLogger to log events to the console.
 
 It contains its own on-board subset of the Java runtime environment.
 

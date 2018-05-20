@@ -28,6 +28,8 @@ The app should build:
 
 5. At the command line, execute: run.sh
 
+The app and library should display:
+
 Hello Custom Image Using a Library - Simplest!
 
 Hello from a Modularized Library! 
@@ -45,6 +47,8 @@ To run this app on another computer:
 5. On the destination computer, open up a command line terminal
 6. CD to the destination location
 7. At the command line, execute: run.sh
+
+The app and library should display:
 
 Hello Custom Image Using a Library - Simplest!
 

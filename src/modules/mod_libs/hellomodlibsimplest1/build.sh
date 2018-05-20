@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 mkdir -p out
-mkdir -p run
 
 # Build the modularized lib
 javac -d out/libmod \

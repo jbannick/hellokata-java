@@ -19,7 +19,7 @@ Hello Non-Modularized App Using a Modularized Library - Simplest!
 
 Hello from a Modularized Library!
 
-To deploy this app:
+To deploy this library and app:
 
 - You must have installed on the destination computer a Java JRE 
 with a version that is at or later than the version of the JDK you used

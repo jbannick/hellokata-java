@@ -23,7 +23,7 @@ To deploy this app:
 
 - You must have installed on the destination computer a Java JRE 
 with a version that is at or later than the version of the JDK you used
-to build this app
+to build this library and app
 
 1. Copy the libmod.jar, app.jar and run.sh file to the destination computer and directory
 2. At the command line, cd to that location

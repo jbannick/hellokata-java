@@ -1,4 +1,4 @@
-This is a simple modularized app uses a modularized library.
+This simple modularized app uses a modularized library.
 It is contained in a Custom Runtime Image that includes its own on-board subset of the Java runtime environment.
 
 Java 9 and later JRE's are modularized.

@@ -1,6 +1,6 @@
-This is a simple modularized library.
+This is a simple modularized library, called by a non-modularized app.
 
-To build and run this library and an app that uses it:
+To build and run this library and the app that uses it:
 
 - You must have the Java 9 JDK or later installed
 
@@ -9,11 +9,11 @@ To build and run this library and an app that uses it:
 3. Copy run.sh to that location
 4. At the command line, execute: build.sh
 
-The app should build.
+The library and app should build.
 
 5. At the command line, execute: run.sh
 
-The app should display:
+The app and library should display:
 
 Hello Non-Modularized App Using a Modularized Library - Simplest!
 
@@ -29,7 +29,7 @@ to build this app
 2. At the command line, cd to that location
 2. At the command line, execute: run.sh
 
-The app should display:
+The app and library should display:
 
 Hello Non-Modularized App Using a Modularized Library - Simplest!
 

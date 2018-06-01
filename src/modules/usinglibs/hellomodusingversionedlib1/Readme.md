@@ -62,7 +62,7 @@ to build this app
 
 1. Copy the lib.jar, app7.jar, app9.jar, run7.sh, and run9.sh files to the destination computer and directory
 2. At the command line, cd to that location
-5. At the command line, execute: run7.sh
+3. At the command line, execute: run7.sh
 
 The Java 7 app and library should display:
 
@@ -74,9 +74,8 @@ The stack is:
 java.lang.Thread.getStackTrace(Thread.java:1589)  
 kata.lib.HelloLib.doSomething(HelloLib.java:9)  
 kata.app7.HelloApp7.main(HelloApp7.java:12)
- 
 
-6. At the command line, execute: run9.sh
+4. At the command line, execute: run9.sh
 
 The Java 9 app and library should display:
 

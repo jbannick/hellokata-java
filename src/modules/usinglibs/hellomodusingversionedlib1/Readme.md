@@ -17,6 +17,13 @@ the library's Java 7 code is used.
 When the library is called from an app running under Java 9, 
 the library's Java 9 code is used.
 
+The Java 9 library code is modularized, 
+but this is not necessary for calling it from a non-modularized Java 9 app, 
+just from modularized apps.
+
+I do it here to demonstrate that modularizing this code has no ill effects
+when called from a non-modularized Java 9 app.
+
 To build and run this library and the two apps that use it:
 
 - You must have the Java 9 JDK or later installed

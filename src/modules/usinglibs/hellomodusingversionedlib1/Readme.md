@@ -37,7 +37,7 @@ Hello Java 7 App Using a Java 7 and 9 Versioned Library!
 This app is running under Java version 1.7.0_80  
 Hello Library - Java 7!  
 The library is running under Java version 1.7.0_80  
-The stack is:
+The stack is:  
 java.lang.Thread.getStackTrace(Thread.java:1589)  
 kata.lib.HelloLib.doSomething(HelloLib.java:9)  
 kata.app7.HelloApp7.main(HelloApp7.java:12)  
@@ -70,7 +70,7 @@ Hello Java 7 App Using a Java 7 and 9 Versioned Library!
 This app is running under Java version 1.7.0_80  
 Hello Library - Java 7!  
 The library is running under Java version 1.7.0_80  
-The stack is:
+The stack is:  
 java.lang.Thread.getStackTrace(Thread.java:1589)  
 kata.lib.HelloLib.doSomething(HelloLib.java:9)  
 kata.app7.HelloApp7.main(HelloApp7.java:12)

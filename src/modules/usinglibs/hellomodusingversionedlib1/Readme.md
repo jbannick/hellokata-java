@@ -1,6 +1,6 @@
-This is a Versioned library called by a Java 7 app and by a non-modularized Java 9 app.
+This is a Multi-release library called by a Java 7 app and by a non-modularized Java 9 app.
 
-A Versioned library contains base code for one Java release, compiled by that release;
+A Multi-release library contains base code for one Java release, compiled by that release;
 and also code for one or more other Java releases, compiled by each of those releases. 
 The JVM decides at runtime which to use.  
 
@@ -71,25 +71,8 @@ to build this app
 2. At the command line, cd to that location
 3. At the command line, execute: run7.sh
 
-The Java 7 app and library should display:
-
-Hello Java 7 App Using a Java 7 and 9 Versioned Library!  
-This app is running under Java version 1.7.0_80  
-Hello Library - Java 7!  
-The library is running under Java version 1.7.0_80  
-The stack is:  
-java.lang.Thread.getStackTrace(Thread.java:1589)  
-kata.lib.HelloLib.doSomething(HelloLib.java:9)  
-kata.app7.HelloApp7.main(HelloApp7.java:12)
+The Java 7 app and library should display as above.
 
 4. At the command line, execute: run9.sh
 
-The Java 9 app and library should display:
-
-Hello Non-Modularized Java 9 App Using a Java 7 and 9 Versioned Library!  
-This app is running under Java version 9.0.4  
-Hello Library - Java 9!  
-The library is running under Java version 9.0.4  
-The stack is:  
-kata.lib.HelloLib.doSomething(HelloLib.java:9)  
-kata.app9.HelloApp9.main(HelloApp9.java:12) 
+The Java 9 app and library should display as above.

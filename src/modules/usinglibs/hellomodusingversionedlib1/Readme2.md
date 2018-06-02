@@ -8,11 +8,11 @@ The key operational elements are:
 - The term "module" is overloaded here
     - IntelliJ modules are separately executable collections of code
     - Java modules are collections of Java packages
-- One IntelliJ module for each of the 4 executable elements
-- JDK settings for:
+- This project uses 1 IntelliJ module for each of the 4 executable elements
+- There are separate JDK settings for:
     - Your IntelliJ installation
-    - The project
-    - Each of the 4 executable elements
+    - This project
+    - Each of the 4 IntelliJ modules
     
 The rest of this description consists of pictures.
 

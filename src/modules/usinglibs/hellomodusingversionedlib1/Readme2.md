@@ -12,7 +12,7 @@ The key operational elements are:
 - There are separate JDK settings for:
     - Your IntelliJ installation
     - This project
-    - Each of the 4 IntelliJ modules
+    - Each of its 4 IntelliJ modules
     
 The rest of this description consists of pictures.
 

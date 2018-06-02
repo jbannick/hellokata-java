@@ -38,10 +38,10 @@ The rest of this description consists of pictures.
 
 ![Library Java 9 Version JDK](images/LIB4Java9JDK.png)
 
-####### Java 7 App JDK
+###### Java 7 App JDK
 
 ![Java 7 App JDK](images/LIB4App7JDK.png)
 
-####### Java 9 App JDK
+###### Java 9 App JDK
 
 ![Java 9 App JDK](images/LIB4App9JDK.png)

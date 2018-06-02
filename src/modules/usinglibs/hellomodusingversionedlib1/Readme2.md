@@ -16,7 +16,7 @@ The key operational elements are:
     
 The rest of this description consists of pictures.
 
-###Project Structure:
+##Project Structure:
 
 ![Project Structure](images/LIB4ProjStructure.png)
 

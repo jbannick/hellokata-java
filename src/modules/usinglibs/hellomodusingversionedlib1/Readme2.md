@@ -18,7 +18,7 @@ The rest of this description consists of pictures.
 
 #### Project Structure:
 
-TODO: ADD IMAGE
+![Project Structure](images/LIB4ProjectStructure.png)
 
 #### JDK Settings:
 

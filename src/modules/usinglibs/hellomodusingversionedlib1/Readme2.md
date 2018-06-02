@@ -1,4 +1,4 @@
-This describes how to build this Versioned library using IntelliJ.
+This describes how to build this Multi-release library using IntelliJ.
 
 It's based on:
 https://blog.jetbrains.com/idea/2017/10/creating-multi-release-jar-files-in-intellij-idea/
@@ -16,7 +16,7 @@ The key operational elements are:
     
 The rest of this description consists of pictures.
 
-#### Project Structure:
+#####Project Structure:
 
 ![Project Structure](images/LIB4ProjStructure.png)
 

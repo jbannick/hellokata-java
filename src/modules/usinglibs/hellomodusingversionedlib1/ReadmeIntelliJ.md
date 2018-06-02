@@ -51,7 +51,7 @@ The rest of this description consists of pictures.
 
 ![Java 7 App Sources](images/LIB4App7Srcs.png)
 
-![Java 7 App Paths](images/LIB4App7Pathss.png)
+![Java 7 App Paths](images/LIB4App7Paths.png)
 
 ![Java 7 App Dependencies](images/LIB4App7Deps.png)
 

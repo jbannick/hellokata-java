@@ -22,7 +22,7 @@ The rest of this description consists of pictures.
 
 #### JDK Settings:
 
-###### IntelliJ Java Compiler
+###### IntelliJ Installation Java Compiler
 
 ![IntelliJ Java Compiler](images/IntelliJJavaCompiler.png)
 

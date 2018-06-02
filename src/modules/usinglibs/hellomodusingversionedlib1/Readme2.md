@@ -41,7 +41,7 @@ The rest of this description consists of pictures.
 
 ###### Library Java 9 Version
 
-![Library Java 9 Version Sources](images/LIB4Java9LibSrcs.png)
+![Library Java 9 Version Sources](images/LIB4Java9LibSrcs2.png)
 
 ![Library Java 9 Version Paths](images/LIB4Java9LibPaths.png)
 

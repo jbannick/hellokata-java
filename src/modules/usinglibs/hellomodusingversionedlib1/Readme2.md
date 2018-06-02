@@ -8,11 +8,12 @@ The key operational elements are:
 - The term "module" is overloaded here
     - IntelliJ modules are separately executable collections of code
     - Java modules are collections of Java packages
-- This project uses 1 IntelliJ module for each of the 4 executable elements
+- This project uses one IntelliJ module for each of the four executable elements
 - There are separate JDK settings for:
     - Your IntelliJ installation
     - This project
-    - Each of its 4 IntelliJ modules
+    - Each of this project's four IntelliJ modules
+- The IntelliJ java9 (library) module compile outputs to the root (library) META-INF/versions/9 directory
     
 The rest of this description consists of pictures.
 
@@ -26,22 +27,38 @@ The rest of this description consists of pictures.
 
 ![IntelliJ Java Compiler](images/IntelliJJavaCompiler.png)
 
-###### Library Project JDK
+##### Project JDK
 
 ![Library Project JDK](images/LIB4ProjectJDK.png)
 
-###### Library Root Version JDK
+###### Library Root Version
 
-![Library Root Version JDK](images/LIB4RootJDK.png)
+![Library Root Version Sources](images/LIB4RootLibSrcs.png)
 
-###### Library Java 9 Version JDK
+![Library Root Version Paths](images/LIB4RootLibPaths.png)
 
-![Library Java 9 Version JDK](images/LIB4Java9JDK.png)
+![Library Root Version Dependencies](images/LIB4RootLibDeps.png)
 
-###### Java 7 App JDK
+###### Library Java 9 Version
 
-![Java 7 App JDK](images/LIB4App7JDK.png)
+![Library Java 9 Version Sources](images/LIB4Java9LibSrcs.png)
 
-###### Java 9 App JDK
+![Library Java 9 Version Paths](images/LIB4Java9LibPaths.png)
 
-![Java 9 App JDK](images/LIB4App9JDK.png)
+![Library Java 9 Version Dependencies](images/LIB4Java9LibDeps.png)
+
+###### Java 7 App
+
+![Java 7 App Sources](images/LIB4App7Srcs.png)
+
+![Java 7 App Paths](images/LIB4App7Pathss.png)
+
+![Java 7 App Dependencies](images/LIB4App7Deps.png)
+
+###### Java 9 App
+
+![Java 9 App Sources](images/LIB4App9Srcs.png)
+
+![Java 9 App Paths](images/LIB4App9Paths.png)
+
+![Java 9 App Dependencies](images/LIB4App9Deps.png)

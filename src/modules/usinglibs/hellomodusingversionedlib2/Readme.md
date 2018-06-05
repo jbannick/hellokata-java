@@ -164,9 +164,13 @@ Comics are:
 [Laurel, Hardy]
 To deploy this library and apps:
 ````
-- You must have installed on the destination computer a Java JRE 
-with a version that is at or later than the version of the JDK you used
-to build this app
+- To run each of these examples, you must have the indicated JRE's installed on your destination computer:  
+    run7.sh - Java 7  
+    run9.sh  - Java 9  
+    run10.sh - Java 10  
+    run7from9.sh - Java 9  
+    run7from10.sh - Java 10  
+    run9from10.sh - Java 10
 
 1. Copy to the destination computer and directory:
     lib.jar  

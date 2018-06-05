@@ -59,10 +59,10 @@ The library and all three apps should build.
 
 The Java 7 app and Multi-release library should display:  
 ````
-Hello Java 7 App Using a Java 7, 9, and 10 Multi-release Library!  
+Hello Java 7 App!  
 This app is running under Java version 1.7.0_80  
 
-Hello Library - Java 7!  
+Hello Library - Java 7 code!  
 The library is running under Java version 1.7.0_80
 
 The stack is:  
@@ -80,10 +80,10 @@ Comics are:
 The Java 9 app and Multi-release library should display:
 
 ````
-Hello Modularized Java 9 App Using a Java 7, 9, and 10 Multi-release Library!  
+Hello Modularized Java 9 App!  
 This app is running under Java version 9.0.4
 
-Hello Library - Java 9!  
+Hello Library - Java 9 code!  
 The library is running under Java version 9.0.4
 
 The stack is:  
@@ -99,10 +99,10 @@ Comics are:
 
 The Java 10 app and Multi-release library should display:
 ````
-Hello Modularized Java 10 App Using a Java 7, 9, and 10 Multi-release Library!  
+Hello Modularized Java 10 App!  
 This app is running under Java version 10
 
-Hello Library - Java 10!  
+Hello Library - Java 10 code!  
 The library is running under Java version 10
 
 The stack is:  
@@ -119,10 +119,10 @@ Comics are:
 The Java 7 app and Multi-release library should display:
 
 ````
-Hello Java 7 App Using a Java 7, 9, and 10 Multi-release Library!  
+Hello Java 7 App!  
 This app is running under Java version 9.0.4  
 
-Hello Library - Java 9!  
+Hello Library - Java 9 code!  
 The library is running under Java version 9.0.4  
 
 The stack is:  
@@ -135,10 +135,10 @@ kata.app7.HelloApp7.main(HelloApp7.java:13)
 The Java 7 app and Multi-release library should display:
 
 ````
-Hello Java 7 App Using a Java 7, 9, and 10 Multi-release Library!  
+Hello Java 7 App!  
 This app is running under Java version 10  
 
-Hello Library - Java 10!  
+Hello Library - Java 10 code!  
 The library is running under Java version 10  
 
 The stack is:  
@@ -149,10 +149,10 @@ kata.app7.HelloApp7.main(HelloApp7.java:13)
 
 The Java 9 app and Multi-release library should display:
 ````
-Hello Modularized Java 9 App Using a Java 7, 9, and 10 Multi-release Library!
+Hello Modularized Java 9 App!
 This app is running under Java version 10
 
-Hello Library - Java 10!
+Hello Library - Java 10 code!
 The library is running under Java version 10
 
 The stack is:

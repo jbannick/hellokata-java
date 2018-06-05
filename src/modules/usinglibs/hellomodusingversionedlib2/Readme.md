@@ -11,7 +11,7 @@ The library we build here has code for:
 - Java 10
 
 The Java 7 version of the library uses the old Thread way of determining the current stack.  
-The Java 9 version of the library uses the Java 9 and later StackWalker way.
+The Java 9 version of the library uses the Java 9 and later StackWalker way.  
 The Java 10 version of the library uses Java 10 Local-Variable Type Inference (var's)
 
 When the library is called from an app running under Java 7, 

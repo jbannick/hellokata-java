@@ -25,6 +25,17 @@ the library's Java 10 code is used, **even if the app itself is compiled under a
 
 The Java 9 and Java 10 apps are modularized.
 
+Note:
+
+Within the library, the versioned code must have for each version, identical:
+
+- Package names
+- Class names
+- Method signatures
+
+Within the library, versioned modularized code must have for each version, identical:
+- Module names
+
 To build and run this library and the two apps that use it:
 
 - You must have the Java 10 JDK installed

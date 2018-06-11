@@ -63,9 +63,7 @@ kata.app9.HelloApp9.main(HelloApp9.java:12)
 
 To deploy this library and apps:
 
-- You must have installed on the destination computer a Java JRE 
-with a version that is at or later than the version of the JDK you used
-to build this app
+- You must have installed on the destination computer a Java JRE version 9 or later.
 
 1. Copy the lib.jar, app7.jar, app9.jar, run7.sh, and run9.sh files to the destination computer and directory
 2. At the command line, cd to that location

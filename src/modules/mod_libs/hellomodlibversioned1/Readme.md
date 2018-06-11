@@ -17,7 +17,7 @@ the library's Java 7 code is used.
 When the library is called from an app running under Java 9, 
 the library's Java 9 code is used.
 
-The Java 9 library code is modularized, 
+***The Java 9 library code is modularized***, 
 but this is not necessary for calling it from a non-modularized Java 9 app, 
 just from modularized apps.
 

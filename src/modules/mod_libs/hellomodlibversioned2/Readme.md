@@ -18,10 +18,10 @@ When the library is called from an app running under Java 7,
 the library's Java 7 code is used.  
 
 When the library is called from an app running under Java 9, 
-the library's Java 9 code is used, **even if the app itself is compiled under an earlier version of Java**.
+the library's Java 9 code is used.
 
 When the library is called from an app running under Java 10, 
-the library's Java 10 code is used, **even if the app itself is compiled under an earlier version of Java**.
+the library's Java 10 code is used.
 
 The Java 9 and Java 10 apps are modularized.
 

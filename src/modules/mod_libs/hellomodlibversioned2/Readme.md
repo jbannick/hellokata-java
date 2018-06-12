@@ -172,7 +172,7 @@ To deploy this library and apps:
     run7from10.sh - Java 10  
     run9from10.sh - Java 10
 
-1. Copy to the destination computer and directory:
+1. Copy to the destination computer and directory:  
     lib.jar  
     app7.jar  
     appmod9.jar  

@@ -39,7 +39,7 @@ The library and both apps should build.
 5. At the command line, execute: run7.sh
 
 The Java 7 app and library should display:
-
+````
 Hello Java 7 App Using a Java 7 and 9 Versioned Library!  
 This app is running under Java version 1.7.0_80  
 Hello Library - Java 7!  
@@ -48,11 +48,11 @@ The stack is:
 java.lang.Thread.getStackTrace(Thread.java:1589)  
 kata.lib.HelloLib.doSomething(HelloLib.java:9)  
 kata.app7.HelloApp7.main(HelloApp7.java:12)  
-
+````
 6. At the command line, execute: run9.sh
 
 The Java 9 app and library should display:
-
+````
 Hello Non-Modularized Java 9 App Using a Java 7 and 9 Versioned Library!  
 This app is running under Java version 9.0.4  
 Hello Library - Java 9!  
@@ -60,7 +60,7 @@ The library is running under Java version 9.0.4
 The stack is:  
 kata.lib.HelloLib.doSomething(HelloLib.java:9)  
 kata.app9.HelloApp9.main(HelloApp9.java:12) 
-
+````
 To deploy this library and apps:
 
 - You must have installed on the destination computer a Java JRE version 9 or later.

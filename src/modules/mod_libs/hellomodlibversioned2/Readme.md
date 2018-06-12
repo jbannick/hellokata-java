@@ -57,7 +57,7 @@ The library and all three apps should build.
 
 5. At the command line, execute: run7.sh
 
-The Java 7 app and Multi-release library should display:  
+The Java 7 app should display:  
 ````
 Hello Java 7 App!  
 This app is running under Java version 1.7.0_80  
@@ -77,7 +77,7 @@ Comics are:
 
 6. At the command line, execute: run9.sh
 
-The Java 9 app and Multi-release library should display:
+The Java 9 app should display:
 
 ````
 Hello Modularized Java 9 App!  
@@ -97,7 +97,7 @@ Comics are:
 
 7. At the command line, execute: run10.sh
 
-The Java 10 app and Multi-release library should display:
+The Java 10 app should display:
 ````
 Hello Modularized Java 10 App!  
 This app is running under Java version 10
@@ -116,7 +116,7 @@ Comics are:
 
 8. At the command line, execute: run7from9.sh
 
-The Java 7 app and Multi-release library should display:
+The Java 7 app should display:
 
 ````
 Hello Java 7 App!  
@@ -132,7 +132,7 @@ kata.app7.HelloApp7.main(HelloApp7.java:13)
 
 9. At the command line, execute: run7from10.sh
 
-The Java 7 app and Multi-release library should display:
+The Java 7 app should display:
 
 ````
 Hello Java 7 App!  
@@ -147,7 +147,7 @@ kata.app7.HelloApp7.main(HelloApp7.java:13)
 ````
 10. At the command line, execute: run9from10.sh
 
-The Java 9 app and Multi-release library should display:
+The Java 9 app should display:
 ````
 Hello Modularized Java 9 App!
 This app is running under Java version 10

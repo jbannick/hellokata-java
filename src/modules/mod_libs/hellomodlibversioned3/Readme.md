@@ -155,27 +155,30 @@ Comics are:
 [Moe, Larry, Curly]  
 [Laurel, Hardy]
 ````
-##### Deploying and Running on Other Computers
-
-- To run each of these examples:  
+##### Deploying and Running on Windows
 
 1. Copy to the destination computer and directory:  
     lib.jar  
-    app7.jar  
-    appmod9.jar  
-    appmod10.jar  
-    run7.sh  
-    run9.sh  
-    run10.sh  
-    run7from9.sh  
-    run7from10.sh  
-    run9from10.sh
+    the app10mod-image
+    run10image-win64.bat
 2. At the command line, cd to that location
-3. At the command line, execute: run7.sh
-4. At the command line, execute: run9.sh
-5. At the command line, execute: run10.sh
-6. At the command line, execute: run7from9.sh
-7. At the command line, execute: run7from10.sh
-8. At the command line, execute: run9from10.sh
+3. At the command line, execute: run10image-win64
 
-The results should display as above.
+The Java 10 app should display:
+
+````
+Hello Modularized Java 10 App!
+This app is running under Java version 10
+on Windows 10 10.0
+
+Hello Library - Java 10 code!
+The library is running under Java version 10
+
+The stack is:
+libmod/kata.lib.HelloLib.doSomething(HelloLib.java:15)
+app10mod/kata.app10mod.HelloApp10Mod.main(HelloApp10Mod.java:18)
+
+Comics are:
+[Moe, Larry, Curly]
+[Laurel, Hardy]
+````

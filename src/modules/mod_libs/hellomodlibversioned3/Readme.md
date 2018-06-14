@@ -159,8 +159,8 @@ Comics are:
 
 1. Copy to the destination computer and directory:  
     lib.jar  
-    the app10mod-image
-    run10image-win64.bat
+    the app10mod-image_win64 directory tree  
+    run10image-win64.bat  
 2. At the command line, cd to that location
 3. At the command line, execute: run10image-win64
 

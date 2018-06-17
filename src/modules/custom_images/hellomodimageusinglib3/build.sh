@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
+rm -rf out
+rm -rf mods
+rm -rf libs
+rm -rf work
+
 mkdir -p out
 mkdir -p mods
 mkdir -p libs
 mkdir -p work
+
 rm -rf appmod-image
 
 ROOT_DIR=$PWD

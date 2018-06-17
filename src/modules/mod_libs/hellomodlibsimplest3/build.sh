@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+rm -rf out
+rm -rf mods
+
 mkdir -p out
 mkdir -p mods
 

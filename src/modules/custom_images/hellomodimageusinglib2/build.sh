@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
+rm -rf out
+rm -rf mods
+rm -rf work
+
 mkdir -p out
 mkdir -p mods
 mkdir -p work
+
 rm -rf appmod-image
 
 cp $CSV_HOME/commons-csv-1.5.jar work

@@ -87,8 +87,8 @@ So we use version 2.9.0.
 1. Copy the src directory tree to your destination location
 2. Copy the names.csv file to that location
 3. Copy build.sh, build_lib1.sh, build_lib2.sh, build_lib3.sh, build_lib4.sh, build.app to that location  
-4 Copy run.sh to that location
-4. At the command line, cd to your destination location
+4. Copy run.sh to that location
+5. At the command line, cd to your destination location
 6. At the command line, execute: build.sh
 
 The app should build.

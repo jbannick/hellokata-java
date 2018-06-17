@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
+rm -rf out
+rm -rf mods
+
 mkdir -p out
 mkdir -p mods
 
 rm -rf appmod-image
 
 javac -d out \
-    src/appmod/kata/app/HelloModulesImage.java \
-    src/appmod/module-info.java
+src/appmod/kata/app/HelloModulesImage.java \
+src/appmod/module-info.java
 
 jar -cfe mods/appmod.jar kata.app.HelloModulesImage -C out .
 

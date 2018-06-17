@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-appmod-image/bin/appmod
+java --module-path mods --module appmod/kata.app.HelloModUsingLibs

@@ -55,10 +55,10 @@ To build and run this app:
 - You must have Java JDK 9 or greater installed  
 
 - You must have commons-csv-1.5.jar at CSV_HOME  
-- You must have jackson-core.2.9.0.jar at JSON_HOME 
+- You must have jackson-core.2.9.0.jar at JSON_HOME  
 - You must have jackson-annotations.2.9.0.jar at JSON_HOME  
-- You must have jackson-databind.2.9.0.jar at JSON_HOME 
-- You must have eventbus-1.4.jar at EBUS_HOME. 
+- You must have jackson-databind.2.9.0.jar at JSON_HOME  
+- You must have eventbus-1.4.jar at EBUS_HOME  
 - You must have log4j-api.2.11.0.jar at LOG4J2_HOME  
 
 Download CSVParser from: 
@@ -85,14 +85,15 @@ Specifically, Java can not find the jackson.databind module.
 So we use version 2.9.0.
 
 1. Copy the src directory tree to your destination location
-2. Copy build.sh to that location
-3. Copy run.sh to that location
+2. Copy the names.csv file to that location
+3. Copy build.sh, build_lib1.sh, build_lib2.sh, build_lib3.sh, build_lib4.sh, build.app to that location
+4 Copy run.sh to that location
 4. At the command line, cd to your destination location
-5. At the command line, execute: build.sh
+6. At the command line, execute: build.sh
 
 The app should build.
 
-6. At the command line, execute: run.sh
+7. At the command line, execute: run.sh
 
 The console should display:
 
@@ -114,10 +115,7 @@ Go ahead and add your name.
 
 To deploy this app:
 
-- Your destination computer must use the **same operating system** you used to build your app, for example:  MacOS
-- The release version of that operating system should not matter, but YMMV
-- It is not necessary to have Java installed on that computer
-- Having Java installed on that computer should not affect this app
+- You must have Java JRE at or later than the release you used to build this installed on the destination computer
 
 1. Copy the appmod_image directory, and run.sh file, and names.csv file to the destination computer and directory
 2. At the command line, cd to that location

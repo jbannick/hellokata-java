@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
+rm -rf out
+rm -rf mods
+
 mkdir -p out
 mkdir -p mods
+
 rm -rf appmod-image
 
 cp $LOG4J2_HOME/log4j-api-2.11.0.jar mods

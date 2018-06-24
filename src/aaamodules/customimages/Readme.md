@@ -7,5 +7,5 @@ These Kata show how to build custom runtime images including an image that,
 - Calls a simple third-party library that is HACKED to make it modularized
 - Calls the Jackson JSON library that is similarly HACKED
 - Calls the Apache CSV library that is similarly HACKED
-- Calls the modularized Apache Log4J library SimpleLogger
+- Calls SimpleLogger from the modularized part of the Apache Log4J library
 - Calls 4 libraries, including Log4J2

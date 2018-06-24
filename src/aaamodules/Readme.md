@@ -1,7 +1,8 @@
-These Kata show how to use Java 9 Modularization, including:
+These Kata show how to use Java 9 Modularization, including building:
 
 - Simple modularized apps
-  - Simple modularized HelloWorld
-  - Modularized HelloWorld in an executable JAR
-  - Modularized HelloWorld as a Custom Runtime Image
 - Modularized apps using libraries
+- Modularized libraries
+- Multi-release modularized libraries
+- Custom runtime images
+- Multi-module apps

@@ -1,4 +1,4 @@
-Custom runtime images must be totally modularized.
+Custom runtime images must be totally modularized.  
 These Kata show how to build custom runtime images including one that, 
 - Runs a HelloWorld app
 - Runs on Linux, Windows, or MacOS

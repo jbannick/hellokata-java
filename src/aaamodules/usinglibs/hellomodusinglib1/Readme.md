@@ -1,6 +1,6 @@
 This app uses the EventBus library to connect Publisher and Subscriber.
 
-This app is modularized and is deployed in a JAR file.
+This app is modularized and is deployed in an executable JAR file, along with the JAR containing the library.
 
 The EventBus library is not modularized.  
 Here it becomes an Automatic module simply by being in the modpath.

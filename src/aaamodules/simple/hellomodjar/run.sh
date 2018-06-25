@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-java --module-path mods \
+java --module-path . \
     --module appmod/kata.app.HelloModJAR

@@ -25,4 +25,4 @@ to build this app
 2. At the command line, cd to that location
 2. At the command line, execute: run.sh
 
-The app should display: Hello Modularized JAR!
+The app should display as above.

@@ -40,9 +40,4 @@ to build this app
 2. At the command line, cd to that location
 2. At the command line, execute: run.sh
 
-The console should display:
-
-Hello Modularized Using Library 1!   
-Publisher is instantiated  
-Subscriber is instantiated  
-Subscriber received a rumor: Pizza in the break room  
+The console should display as above.

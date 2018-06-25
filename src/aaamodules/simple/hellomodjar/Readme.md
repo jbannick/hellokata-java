@@ -21,7 +21,7 @@ To deploy this app:
 with a version that is at or later than the version of the JDK you used
 to build this app
 
-1. Copy the mods directory and run.sh file to the destination computer and directory
+1. Copy the appmod.jar file and run.sh file to the destination computer and directory
 2. At the command line, cd to that location
 2. At the command line, execute: run.sh
 

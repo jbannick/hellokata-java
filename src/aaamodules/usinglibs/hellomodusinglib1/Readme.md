@@ -36,7 +36,7 @@ To deploy this app:
 with a version that is at or later than the version of the JDK you used
 to build this app
 
-1. Copy the mod directory and run.sh file to the destination computer and directory
+1. Copy the appmod.jar, eventbus-1.4.jar, and run.sh file to the destination computer and directory
 2. At the command line, cd to that location
 2. At the command line, execute: run.sh
 

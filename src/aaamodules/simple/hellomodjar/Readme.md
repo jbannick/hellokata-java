@@ -1,4 +1,4 @@
-This is a simple modularized app that is contained in a JAR file.
+This is a simple modularized app that is contained in an executable JAR file.
 
 To build and run this app:
 

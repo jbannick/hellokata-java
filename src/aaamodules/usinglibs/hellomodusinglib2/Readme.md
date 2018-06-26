@@ -55,7 +55,7 @@ To deploy this app:
 
 - You must have the Java JRE at or later than the release you used to build this installed on the destination computer
 
-1. Copy the mods directory and run.sh file to the destination computer and directory
+1. Copy the appmod.jar, log4j-api-2.11.0.jar, log4j-core-2.11.0.jar and run.sh file to the destination computer and directory
 2. At the command line, cd to that location
 2. At the command line, execute: run.sh
 

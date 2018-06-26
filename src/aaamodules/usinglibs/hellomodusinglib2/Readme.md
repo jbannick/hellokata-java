@@ -2,15 +2,12 @@ This modularized app uses the Log4J2 library for event logging.
 
 That library consists of two JAR files.  
  
- The log4j-api.2.11.0.jar is fully modularized.
+The log4j-api.2.11.0.jar is fully modularized.
  
- The log4j-core.2.11.0.jar is an Automatic Module.  
- This means that it is not a module, but can be used by a modularized app on the Module Path.
+The log4j-core.2.11.0.jar is an Automatic Module.  
+This means that it is not a module, but can be used by a modularized app on the Module Path.
  
- Both JAR's are multi-release, containing version directory trees for Java 9.
- 
- Both JAR's contain version directory trees for Java 9.
-
+Both JAR's are multi-release, containing version directory trees for Java 9.
 
 The app is deployed in a JAR file.  
 The log4j2.xml configuration file is included in that JAR file.

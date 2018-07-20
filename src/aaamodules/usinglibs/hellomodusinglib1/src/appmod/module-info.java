@@ -1,3 +1,5 @@
 module appmod {
-    requires eventbus;
+    requires org.apache.logging.log4j;
+
+    opens kata.app;
 }

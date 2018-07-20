@@ -13,7 +13,8 @@ The app should build.
 
 5. At the command line, execute: run.sh
 
-The app should display: Hello Modularized!
+The app should display:  
+Hello Modularized!
 
 To deploy this app:
 
@@ -21,7 +22,9 @@ To deploy this app:
 with a version that is at or later than the version of the JDK you used
 to build this app
 
-1. Copy the out directory and run.sh file to the destination computer and directory
+1. Copy to the destination computer and directory:  
+ The out directory   
+ run.sh 
 2. At the command line, cd to that location
 2. At the command line, execute: run.sh
 

@@ -81,7 +81,7 @@ Day-to-day coding is expedience-driven, not lending itself to comprehensive fami
 
 Code Kata are my way to address these issues and stay very good at what I do.
 
-Designing and coding Kata are means for achieving a comprehensive knowledge of a language, and  staying current.
+Designing and coding Kata are ways of achieving a comprehensive knowledge of a language, and  staying current.
 
 Practicing Kata is how I keep my toolset for a specific language fully stocked, even when my job requires working with a different language.
 

@@ -11,13 +11,17 @@ see: >>>[KATA](https://github.com/jbannick/hellokata-java/blob/master/KATA.md)
 
 ## Repo Structure
 This repo contains Kata for Java 7 and earlier.
+
 There are repos for Java 8, Java 9, Java 10.
 
 ## Java Compiles
 This repo is compiled on my Mac under Java 7.
+
 The other Java repos are compiled on my Mac under the Java appropriate to each repo.
 
 ## Code Completeness
 This is a work in progress.
+
 All code compiles and executes correctly.
+
 However, code may contain TODO's as reminders.

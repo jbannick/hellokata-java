@@ -73,7 +73,7 @@ Motivation and Intention:
 
 My job at [MIT Lincoln Laboratory](https://www.ll.mit.edu//) as a software architect and coder requires a deep facility  with multiple languages. 
 
-Even novice software engineers know how easy it is to forget pieces of a language when you don't use it for awhile. (Or even that code you wrote two weeks ago.) Software engineers, like medical doctors, tend to know their areas of expertise as it was when they first learned it, but not to follow it as it changes. (Java 7, 8, 9 anyone?) Day-to-day coding is expedience-driven, not lending itself to comprehensive familiarity.
+Even novice software engineers know how easy it is to forget pieces of a language when you don't use it for awhile. (Or even that code you wrote two weeks ago.) Software engineers, like medical doctors, tend to know their areas of expertise as it was when they first learned it, but not to follow it as it changes. (Java 9, 10 anyone?) Day-to-day coding is expedience-driven, not lending itself to comprehensive familiarity.
 
 Code Kata are my way to address these issues and stay very good at what I do.
 

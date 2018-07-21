@@ -87,10 +87,10 @@ The language facility this brings also lets me focus on architecture rather than
 
 So the intention here is comprehensiveness and practice, not explanation.
 
-You won't find the kind of comments I put in my production code. Nor will you find error handling and event logging. See my Portfolio for those. What you will find is the simplest code for the task at hand.
+You won't find the kind of comments I put in my production code. Nor will you find error handling and event logging. What you will find is the simplest code for the task at hand.
 
 Other Folks' Kata: No criticism intended, but they don't do what I want.
 Kihon vs. Kata: She's undoubtedly correct; but I like the term Kata more.
 HelloWorld: It's what I use, even for [Quantum](https://github.com/jbannick/hellokata-quil).
 
-You might find these Kata useful for your own professional edge.
+You might find these Kata useful to sharpen your own professional edge.

@@ -12,7 +12,10 @@ see: >>>[KATA](https://github.com/jbannick/hellokata-java/blob/master/KATA.md)
 ## Repo Structure
 This repo contains Kata for Java 7 and earlier.
 
-There are repos for [Java 8](https://github.com/jbannick/hellokata-java8), Java 9, Java 10.
+There are repos for 
+[Java 8](https://github.com/jbannick/hellokata-java8), 
+[Java 9](https://github.com/jbannick/hellokata-java9), 
+[Java 10](https://github.com/jbannick/hellokata-java10).
 
 ## Java Compiles
 This repo is compiled on my Mac under Java 7.

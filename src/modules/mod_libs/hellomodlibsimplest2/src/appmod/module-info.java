@@ -1,3 +1,0 @@
-module appmod {
-    requires libmod;
-}
